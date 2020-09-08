@@ -15,6 +15,9 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/right/pcb-flat-right.pdf
 Right side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/right/mechanical/right-switch-holes.pdf
 
+How the keys are layd out on the left side:
+https://github.com/Supermagnum/98keys-ergo/blob/master/left-side-layout.jpg
+
 More files:
 https://github.com/Supermagnum/98keys-ergo
 
