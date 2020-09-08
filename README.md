@@ -1,5 +1,5 @@
 # 98keys-ergo
-A 98 key ergonomic. split keyboard.
+A 98 key ergonomic,split keyboard.
 
 It has dual arrow key pads.
 
