@@ -18,8 +18,7 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/right/mechanical/right-sw
 More files:
 https://github.com/Supermagnum/98keys-ergo
 
-I will type write up the readme when I have the energy,
-and add links to the PCB boards with part sets.
+ Todo: add links to the PCB boards with part sets.
 
 Cherry MX switches should fit the holes.
 
