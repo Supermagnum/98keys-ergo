@@ -3,14 +3,10 @@ A 98 key ergonomic,split keyboard.
 
 It has dual arrow key pads.
 
-Left side wiring:
-https://github.com/Supermagnum/98keys-ergo/blob/master/left/pcb-flat-left.pdf
 
 Left side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/left/mechanical/left-switch-holes.pdf
 
-Right side wiring
-https://github.com/Supermagnum/98keys-ergo/blob/master/right/pcb-flat-right.pdf
 
 Right side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/right/mechanical/right-switch-holes.pdf
@@ -24,6 +20,7 @@ More files:
 https://github.com/Supermagnum/98keys-ergo
 
  Todo: add links to the PCB boards with part sets.
+Redo PCB wiring and boards.
 
 Cherry MX switches should fit the holes.
 
