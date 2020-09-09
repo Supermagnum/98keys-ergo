@@ -11,10 +11,8 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/left/mechanical/left-swit
 Right side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/right/mechanical/right-switch-holes.pdf
 
-How the keys are layd out on the left side:
-https://github.com/Supermagnum/98keys-ergo/blob/master/left-side-layout.jpg
-The right side is mirrored of the left, and of course the keys can have different signs.
-It's shown with Norwegian QWERTY.
+How the keys are layd out:
+http://www.keyboard-layout-editor.com/#/gists/c881b4af35745d286a7193ede6e3d1f9
 
 More files:
 https://github.com/Supermagnum/98keys-ergo
