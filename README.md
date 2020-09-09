@@ -17,8 +17,6 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/right/mechanical/right-sw
 Right side electrical connections:
 https://github.com/Supermagnum/98keys-ergo/blob/master/right/pcb-flat-right-elec-diagram.pdf
 
-How the keys are layd out:
-http://www.keyboard-layout-editor.com/#/gists/c881b4af35745d286a7193ede6e3d1f9
 
 More files:
 https://github.com/Supermagnum/98keys-ergo
