@@ -17,6 +17,9 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/right/mechanical/right-sw
 Right side electrical connections:
 https://github.com/Supermagnum/98keys-ergo/blob/master/right/pcb-flat-right-elec-diagram.pdf
 
+How to wire up the connecting cable:
+https://github.com/Supermagnum/98keys-ergo/blob/master/cable.pdf
+
 
 More files:
 https://github.com/Supermagnum/98keys-ergo
