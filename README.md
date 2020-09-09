@@ -24,8 +24,8 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/cable.pdf
 More files:
 https://github.com/Supermagnum/98keys-ergo
 
- Todo: add links to the PCB boards with part sets.
-Redo PCB wiring and boards.
+Todo: add links to the PCB boards with part sets.
+
 
 Cherry MX switches should fit the holes.
 
