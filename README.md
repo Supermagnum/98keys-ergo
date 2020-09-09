@@ -7,9 +7,15 @@ It has dual arrow key pads.
 Left side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/left/mechanical/left-switch-holes.pdf
 
+Left side electrical connections:
+https://github.com/Supermagnum/98keys-ergo/blob/master/left/pcb-flat-left-elec-diagram.pdf
+
 
 Right side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/right/mechanical/right-switch-holes.pdf
+
+Right side electrical connections:
+https://github.com/Supermagnum/98keys-ergo/blob/master/right/pcb-flat-right-elec-diagram.pdf
 
 How the keys are layd out:
 http://www.keyboard-layout-editor.com/#/gists/c881b4af35745d286a7193ede6e3d1f9
