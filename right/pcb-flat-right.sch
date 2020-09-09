@@ -16,132 +16,103 @@ $EndDescr
 $Comp
 L keyboard2:MX-NO-LED SW44
 U 1 1 5F4200AC
-P 13350 8750
-F 0 "SW44" V 13350 8928 50  0000 L CNN
-F 1 "MX-NO-LED" H 13350 8450 60  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 13350 8750 60  0001 C CNN
-F 3 "" H 13350 8750 60  0001 C CNN
-	1    13350 8750
+P 9650 9100
+F 0 "SW44" V 9650 9278 50  0000 L CNN
+F 1 "MX-NO-LED" H 9650 8800 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9650 9100 60  0001 C CNN
+F 3 "" H 9650 9100 60  0001 C CNN
+F 4 "arrow-left" V 9450 9350 50  0000 C CNN "Field4"
+	1    9650 9100
 	0    1    1    0   
 $EndComp
 $Comp
 L keyboard2:MX-NO-LED SW46
 U 1 1 5F4200B2
-P 14300 8750
-F 0 "SW46" V 14300 8928 50  0000 L CNN
-F 1 "MX-NO-LED" H 14300 8450 60  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 14300 8750 60  0001 C CNN
-F 3 "" H 14300 8750 60  0001 C CNN
-	1    14300 8750
+P 11550 9100
+F 0 "SW46" V 11550 9278 50  0000 L CNN
+F 1 "MX-NO-LED" H 11550 8800 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 11550 9100 60  0001 C CNN
+F 3 "" H 11550 9100 60  0001 C CNN
+F 4 "arrow-down" V 11350 9350 50  0000 C CNN "Field4"
+	1    11550 9100
 	0    1    1    0   
 $EndComp
 $Comp
 L keyboard2:MX-NO-LED SW47
 U 1 1 5F4200B8
-P 15150 8750
-F 0 "SW47" V 15150 8928 50  0000 L CNN
-F 1 "MX-NO-LED" H 15150 8450 60  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 15150 8750 60  0001 C CNN
-F 3 "" H 15150 8750 60  0001 C CNN
-	1    15150 8750
+P 12750 9100
+F 0 "SW47" V 12750 9278 50  0000 L CNN
+F 1 "MX-NO-LED" H 12750 8800 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 12750 9100 60  0001 C CNN
+F 3 "" H 12750 9100 60  0001 C CNN
+F 4 "arrow-right" V 12550 9350 50  0000 C CNN "Field4"
+	1    12750 9100
 	0    1    1    0   
 $EndComp
 $Comp
 L keyboard2:MX-NO-LED SW45
 U 1 1 5F420206
-P 14250 7700
-F 0 "SW45" V 14250 7878 50  0000 L CNN
-F 1 "MX-NO-LED" H 14250 7400 60  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 14250 7700 60  0001 C CNN
-F 3 "" H 14250 7700 60  0001 C CNN
-	1    14250 7700
+P 12750 7850
+F 0 "SW45" V 12750 8028 50  0000 L CNN
+F 1 "MX-NO-LED" H 12750 7550 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 12750 7850 60  0001 C CNN
+F 3 "" H 12750 7850 60  0001 C CNN
+F 4 "arrow-up" V 12650 8200 50  0000 C CNN "Field4"
+	1    12750 7850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	14250 7400 15150 7400
-Wire Wire Line
-	15150 7400 15150 8450
-Wire Wire Line
-	15150 8450 14300 8450
-Connection ~ 15150 8450
-Wire Wire Line
-	14250 7400 13450 7400
-Connection ~ 14250 7400
 $Comp
 L Diode:1N4148 D46
 U 1 1 5F7E4016
-P 14600 8000
-F 0 "D46" H 14600 7783 50  0000 C CNN
-F 1 "1N4148" H 14600 7874 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14600 7825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14600 8000 50  0001 C CNN
-	1    14600 8000
+P 13100 8150
+F 0 "D46" H 13100 7933 50  0000 C CNN
+F 1 "1N4148" H 13100 8024 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13100 7975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13100 8150 50  0001 C CNN
+	1    13100 8150
 	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D45
 U 1 1 5F7E7543
-P 13700 9050
-F 0 "D45" H 13700 8833 50  0000 C CNN
-F 1 "1N4148" H 13700 8924 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13700 8875 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13700 9050 50  0001 C CNN
-	1    13700 9050
+P 10000 9400
+F 0 "D45" H 10000 9183 50  0000 C CNN
+F 1 "1N4148" H 10000 9274 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10000 9225 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10000 9400 50  0001 C CNN
+	1    10000 9400
 	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D47
 U 1 1 5F7E8088
-P 14650 9050
-F 0 "D47" H 14650 8833 50  0000 C CNN
-F 1 "1N4148" H 14650 8924 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14650 8875 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14650 9050 50  0001 C CNN
-	1    14650 9050
+P 11900 9400
+F 0 "D47" H 11900 9183 50  0000 C CNN
+F 1 "1N4148" H 11900 9274 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11900 9225 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11900 9400 50  0001 C CNN
+	1    11900 9400
 	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D48
 U 1 1 5F7E8AD4
-P 15500 9050
-F 0 "D48" H 15500 8833 50  0000 C CNN
-F 1 "1N4148" H 15500 8924 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15500 8875 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15500 9050 50  0001 C CNN
-	1    15500 9050
+P 13100 9400
+F 0 "D48" H 13100 9183 50  0000 C CNN
+F 1 "1N4148" H 13100 9274 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13100 9225 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13100 9400 50  0001 C CNN
+	1    13100 9400
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	14450 8000 14250 8000
+	12950 8150 12750 8150
 Wire Wire Line
-	13550 9050 13350 9050
+	9850 9400 9650 9400
 Wire Wire Line
-	14500 9050 14300 9050
+	11750 9400 11550 9400
 Wire Wire Line
-	15350 9050 15150 9050
-Wire Wire Line
-	13850 9500 13850 9050
-Wire Wire Line
-	13850 9050 13850 8200
-Wire Wire Line
-	13850 8200 14750 8200
-Wire Wire Line
-	14750 8200 14750 8000
-Connection ~ 13850 9050
-Wire Wire Line
-	14750 8200 14900 8200
-Wire Wire Line
-	14900 9600 15650 9600
-Wire Wire Line
-	15650 9600 15650 9050
-Wire Wire Line
-	14900 8200 14900 9050
-Connection ~ 14750 8200
-Wire Wire Line
-	14800 9050 14900 9050
-Connection ~ 14900 9050
-Wire Wire Line
-	14900 9050 14900 9600
+	12950 9400 12750 9400
 Wire Wire Line
 	10600 5450 10600 5350
 Wire Wire Line
@@ -961,20 +932,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 1350 6250 1350
 Connection ~ 4750 7550
-Wire Wire Line
-	4750 7550 4350 7550
-Connection ~ 4750 4750
-Wire Wire Line
-	4750 4750 4400 4750
 Connection ~ 8700 8800
-Connection ~ 11500 7550
-Wire Wire Line
-	11950 8800 8700 8800
-Wire Wire Line
-	11950 7550 11950 8800
-Wire Wire Line
-	11500 7550 11950 7550
-Connection ~ 4600 1750
 Connection ~ 7850 8800
 Wire Wire Line
 	7850 8800 8700 8800
@@ -1025,16 +983,8 @@ Wire Wire Line
 Connection ~ 9700 6150
 Wire Wire Line
 	9700 6150 8700 6150
-Connection ~ 10650 6150
 Wire Wire Line
 	10650 6150 9700 6150
-Connection ~ 11500 4700
-Wire Wire Line
-	11950 4700 11500 4700
-Wire Wire Line
-	11950 6150 11950 4700
-Wire Wire Line
-	10650 6150 11950 6150
 Connection ~ 10600 4700
 Wire Wire Line
 	11500 4700 11500 4750
@@ -1081,14 +1031,8 @@ Wire Wire Line
 Connection ~ 10600 3200
 Wire Wire Line
 	10600 3200 9650 3200
-Connection ~ 11500 3200
 Wire Wire Line
 	11500 3200 10600 3200
-Connection ~ 10450 1750
-Wire Wire Line
-	11500 1750 11500 3200
-Wire Wire Line
-	10450 1750 11500 1750
 Connection ~ 9500 1750
 Wire Wire Line
 	10450 1750 9500 1750
@@ -1580,133 +1524,117 @@ F 3 "" H 4600 2050 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4900 1750 0    50   ~ 0
-ROW1+2
-Wire Wire Line
-	2300 1750 4600 1750
-Wire Wire Line
-	4400 4750 4400 4150
-Wire Wire Line
-	4350 7550 4350 5050
-Wire Wire Line
-	4350 5050 3400 5050
-Wire Wire Line
-	3400 5050 3400 4350
-Text Label 3800 4150 0    50   ~ 0
-ROW3+4
-Text Label 3650 5050 0    50   ~ 0
-ROW5+6
+ROW1
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F479FDE
-P 2850 5600
-F 0 "H1" V 2804 5750 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2895 5750 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2850 5600 50  0001 C CNN
-F 3 "~" H 2850 5600 50  0001 C CNN
-	1    2850 5600
+P 18300 4200
+F 0 "H1" V 18254 4350 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18345 4350 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 18300 4200 50  0001 C CNN
+F 3 "~" H 18300 4200 50  0001 C CNN
+	1    18300 4200
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5F47A77F
-P 2850 5800
-F 0 "H2" V 2804 5950 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2895 5950 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2850 5800 50  0001 C CNN
-F 3 "~" H 2850 5800 50  0001 C CNN
-	1    2850 5800
+P 18300 4400
+F 0 "H2" V 18254 4550 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18345 4550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 18300 4400 50  0001 C CNN
+F 3 "~" H 18300 4400 50  0001 C CNN
+	1    18300 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5F47AECD
-P 2850 6050
-F 0 "H3" V 2804 6200 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2895 6200 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2850 6050 50  0001 C CNN
-F 3 "~" H 2850 6050 50  0001 C CNN
-	1    2850 6050
+P 18300 4650
+F 0 "H3" V 18254 4800 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18345 4800 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 18300 4650 50  0001 C CNN
+F 3 "~" H 18300 4650 50  0001 C CNN
+	1    18300 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5F47B67D
-P 2850 6300
-F 0 "H4" V 2804 6450 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2895 6450 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2850 6300 50  0001 C CNN
-F 3 "~" H 2850 6300 50  0001 C CNN
-	1    2850 6300
+P 18300 4900
+F 0 "H4" V 18254 5050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18345 5050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 18300 4900 50  0001 C CNN
+F 3 "~" H 18300 4900 50  0001 C CNN
+	1    18300 4900
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 5F47EF0B
-P 2850 6550
-F 0 "H5" V 2804 6700 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2895 6700 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2850 6550 50  0001 C CNN
-F 3 "~" H 2850 6550 50  0001 C CNN
-	1    2850 6550
+P 18300 5150
+F 0 "H5" V 18254 5300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18345 5300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 18300 5150 50  0001 C CNN
+F 3 "~" H 18300 5150 50  0001 C CNN
+	1    18300 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H6
 U 1 1 5F47EF11
-P 2850 6750
-F 0 "H6" V 2804 6900 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2895 6900 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2850 6750 50  0001 C CNN
-F 3 "~" H 2850 6750 50  0001 C CNN
-	1    2850 6750
+P 18300 5350
+F 0 "H6" V 18254 5500 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18345 5500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 18300 5350 50  0001 C CNN
+F 3 "~" H 18300 5350 50  0001 C CNN
+	1    18300 5350
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H7
 U 1 1 5F47EF17
-P 2850 7000
-F 0 "H7" V 2804 7150 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2895 7150 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2850 7000 50  0001 C CNN
-F 3 "~" H 2850 7000 50  0001 C CNN
-	1    2850 7000
+P 18300 5600
+F 0 "H7" V 18254 5750 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18345 5750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 18300 5600 50  0001 C CNN
+F 3 "~" H 18300 5600 50  0001 C CNN
+	1    18300 5600
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H8
 U 1 1 5F47EF1D
-P 2850 7250
-F 0 "H8" V 2804 7400 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2895 7400 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 2850 7250 50  0001 C CNN
-F 3 "~" H 2850 7250 50  0001 C CNN
-	1    2850 7250
+P 18300 5850
+F 0 "H8" V 18254 6000 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18345 6000 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 18300 5850 50  0001 C CNN
+F 3 "~" H 18300 5850 50  0001 C CNN
+	1    18300 5850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2750 7250 2750 7000
+	18200 5850 18200 5600
 Wire Wire Line
-	2750 7000 2750 6750
-Connection ~ 2750 7000
+	18200 5600 18200 5350
+Connection ~ 18200 5600
 Wire Wire Line
-	2750 6750 2750 6550
-Connection ~ 2750 6750
-Connection ~ 2750 6550
+	18200 5350 18200 5150
+Connection ~ 18200 5350
+Connection ~ 18200 5150
 Wire Wire Line
-	2750 6300 2750 6050
-Connection ~ 2750 6300
+	18200 4900 18200 4650
+Connection ~ 18200 4900
 Wire Wire Line
-	2750 6050 2750 5800
-Connection ~ 2750 6050
+	18200 4650 18200 4400
+Connection ~ 18200 4650
 Wire Wire Line
-	2750 5800 2750 5600
-Connection ~ 2750 5800
+	18200 4400 18200 4200
+Connection ~ 18200 4400
 Wire Wire Line
-	2750 5600 2750 5250
-Connection ~ 2750 5600
-Wire Wire Line
-	2300 1750 2300 3950
-Text Label 1850 5250 0    50   ~ 0
+	18200 4200 18200 3850
+Connection ~ 18200 4200
+Text Label 17300 3850 0    50   ~ 0
 GND
 Text GLabel 7250 10250 3    50   BiDi ~ 0
 COL3+4
@@ -1714,31 +1642,12 @@ Text GLabel 9150 10250 3    50   BiDi ~ 0
 COL5+6
 Text GLabel 11000 10300 3    50   BiDi ~ 0
 COL7+8
-Text GLabel 1550 5250 0    50   Input ~ 0
+Text GLabel 17000 3850 0    50   Input ~ 0
 GND
 Text GLabel 5350 10400 3    50   Input ~ 0
 COL1+2
 Wire Wire Line
 	5350 9400 5350 10400
-Text GLabel 1600 3950 0    50   Input ~ 0
-ROW1+2
-Text GLabel 1600 4150 0    50   Input ~ 0
-ROW3+4
-Text GLabel 1600 4350 0    50   Input ~ 0
-ROW5+6
-Wire Wire Line
-	2300 3950 1600 3950
-Wire Wire Line
-	1600 4150 4400 4150
-Wire Wire Line
-	1600 4350 3400 4350
-Text GLabel 13450 7400 0    50   BiDi ~ 0
-ArrowsR
-Text GLabel 13850 9500 0    50   BiDi ~ 0
-ArrowsC
-Wire Wire Line
-	14300 8450 13350 8450
-Connection ~ 14300 8450
 $Comp
 L Connector:DB15_Female J?
 U 1 1 5FA2CB1C
@@ -1747,58 +1656,141 @@ AR Path="/5F5CF1CF/5FA2CB1C" Ref="J?"  Part="1"
 AR Path="/5FA2CB1C" Ref="J1"  Part="1" 
 F 0 "J1" H 14904 4846 50  0000 L CNN
 F 1 "DB15_Female" H 14904 4755 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset9.40mm" H 14750 4800 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 14750 4800 50  0001 C CNN
 F 3 " ~" H 14750 4800 50  0001 C CNN
 	1    14750 4800
 	1    0    0    -1  
 $EndComp
 Text GLabel 14000 4100 0    50   Input ~ 0
-ROW1+2
+ROW1
 Wire Wire Line
 	14450 4100 14000 4100
-Text GLabel 14000 4300 0    50   Input ~ 0
-ROW3+4
+Text GLabel 14000 4200 0    50   Input ~ 0
+ROW2
 Wire Wire Line
 	14000 4300 14450 4300
-Text GLabel 14000 4500 0    50   Input ~ 0
-ROW5+6
 Wire Wire Line
 	14450 4500 14000 4500
-Text GLabel 14050 4200 0    50   Input ~ 0
-ArrowsC
-Wire Wire Line
-	14450 4200 14050 4200
-Text GLabel 14000 4700 0    50   Input ~ 0
+Text GLabel 14000 5000 0    50   Input ~ 0
 COL1+2
-Text GLabel 14000 4900 0    50   Input ~ 0
+Text GLabel 14000 5100 0    50   Input ~ 0
 COL3+4
 Wire Wire Line
-	14450 4700 14000 4700
+	14450 5000 14000 5000
 Wire Wire Line
-	14000 4900 14450 4900
-Text GLabel 14000 5100 0    50   Input ~ 0
+	14000 5100 14450 5100
+Text GLabel 14000 5200 0    50   Input ~ 0
 COL5+6
 Wire Wire Line
-	14450 5100 14000 5100
+	14450 5200 14000 5200
 Text GLabel 14000 5300 0    50   Input ~ 0
 COL7+8
 Wire Wire Line
 	14450 5300 14000 5300
-Text GLabel 14000 5500 0    50   Input ~ 0
-ArrowsR
 Wire Wire Line
 	14450 5500 14000 5500
 Text GLabel 13850 5400 0    50   Input ~ 0
 GND
 Wire Wire Line
 	14450 5400 13850 5400
-NoConn ~ 14450 4400
-NoConn ~ 14450 4600
-NoConn ~ 14450 5200
+Wire Wire Line
+	17000 3850 18200 3850
+Wire Wire Line
+	18200 4900 18200 5150
+Text GLabel 4300 1750 0    50   Input ~ 0
+ROW1
+Wire Wire Line
+	4600 1750 4300 1750
+Connection ~ 4600 1750
+Text GLabel 4200 3200 0    50   Input ~ 0
+ROW2
+Wire Wire Line
+	4750 3200 4200 3200
+Connection ~ 4750 3200
+Text Label 5050 3200 0    50   ~ 0
+ROW2
+Text GLabel 4250 4750 0    50   Input ~ 0
+ROW3
+Wire Wire Line
+	4750 4750 4250 4750
+Connection ~ 4750 4750
+Text Label 4950 4750 0    50   ~ 0
+ROW3
+Text GLabel 4300 6150 0    50   Input ~ 0
+ROW4
+Wire Wire Line
+	4800 6150 4300 6150
+Connection ~ 4800 6150
+Text Label 4500 6150 0    50   ~ 0
+ROW4
+Text GLabel 4250 7550 0    50   Input ~ 0
+ROW5
+Wire Wire Line
+	4250 7550 4750 7550
+Text Label 4400 7550 0    50   ~ 0
+ROW5
+Text GLabel 4100 8800 0    50   Input ~ 0
+ROW6
+Wire Wire Line
+	4800 8800 4100 8800
+Connection ~ 4800 8800
+Text Label 4350 8800 0    50   ~ 0
+ROW6
+Connection ~ 11500 7550
+Wire Wire Line
+	12750 7550 11500 7550
+Connection ~ 9650 8800
+Wire Wire Line
+	9650 8800 8700 8800
+Wire Wire Line
+	10150 8300 10050 8300
+Wire Wire Line
+	10150 8300 10150 9400
+Connection ~ 10050 8300
+Wire Wire Line
+	11550 8800 9650 8800
+Wire Wire Line
+	12350 9400 12350 8150
+Wire Wire Line
+	12050 9400 12350 9400
+Connection ~ 12350 8150
+Wire Wire Line
+	11550 8800 12750 8800
+Connection ~ 11550 8800
+Wire Wire Line
+	13250 8150 13250 9400
+Text GLabel 13250 10200 3    50   BiDi ~ 0
+Arrow-Right
+Wire Wire Line
+	13250 9400 13250 10200
+Connection ~ 13250 9400
+Wire Wire Line
+	14000 4200 14450 4200
+Text GLabel 14000 4300 0    50   BiDi ~ 0
+ROW3
+Text GLabel 14000 4400 0    50   BiDi ~ 0
+ROW4
+Text GLabel 14000 4500 0    50   BiDi ~ 0
+ROW5
+Text GLabel 14000 4600 0    50   BiDi ~ 0
+ROW6
+Wire Wire Line
+	14450 4400 14000 4400
+Wire Wire Line
+	14000 4600 14450 4600
+Text GLabel 14000 5500 0    50   BiDi ~ 0
+Arrow-Right
+NoConn ~ 14450 4700
 NoConn ~ 14450 4800
-NoConn ~ 14450 5000
-Wire Wire Line
-	1550 5250 2750 5250
-Wire Wire Line
-	2750 6300 2750 6550
+NoConn ~ 14450 4900
+Text Label 5350 10050 0    50   ~ 0
+COL1+2
+Text Label 7250 9850 0    50   ~ 0
+COL3+4
+Text Label 9150 9950 0    50   ~ 0
+COL5+6
+Text Label 11000 9900 0    50   ~ 0
+COL7+8
+Text Label 13250 10000 0    50   ~ 0
+Arrow-col
 $EndSCHEMATC
