@@ -25,6 +25,7 @@ More files:
 https://github.com/Supermagnum/98keys-ergo
 
 Todo: add links to the PCB boards with part sets.
+Rework the switching matrixes.
 
 
 Cherry MX switches should fit the holes.
