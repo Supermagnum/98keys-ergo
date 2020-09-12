@@ -4,7 +4,7 @@ A 98 key ergonomic,split keyboard.
 THE PCB BOARDS AND MATRIXES ARE WIRED WRONG!
 THIS WILL BE FIXED! 
 
-Layout, left and right side:
+Layout, left side:
 http://www.keyboard-layout-editor.com/#/gists/2fea0143064790fed378761bfa7f5600
 
 Left side switch plate:
