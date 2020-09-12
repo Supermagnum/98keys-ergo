@@ -5,8 +5,7 @@ Left side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/left/mechanical/left-switch-holes.pdf
 
 Left side electrical connections:
-https://github.com/Supermagnum/98keys-ergo/blob/master/left/pcb-flat-left-elec-diagram.pdf
-
+https://github.com/Supermagnum/98keys-ergo/blob/master/left/pcb-flat-left-schematic.pdf
 Left side PCB:
 https://aisler.net/p/OXGECRVD
 
