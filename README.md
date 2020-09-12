@@ -6,6 +6,7 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/left/mechanical/left-swit
 
 Left side electrical connections:
 https://github.com/Supermagnum/98keys-ergo/blob/master/left/pcb-flat-left-schematic.pdf
+
 Left side PCB:
 https://aisler.net/p/OXGECRVD
 
@@ -22,12 +23,11 @@ https://aisler.net/p/CHPGJUXC
 How to wire up the connecting cable:
 https://github.com/Supermagnum/98keys-ergo/blob/master/cable.pdf
 
-
 More files:
 https://github.com/Supermagnum/98keys-ergo
 
 
-Cherry MX switches should fit the holes.
+Cherry MX switches should fit the holes and the PCB'S.
 
 The switch mounting plates has mounting holes, so they can be mounted in wood or other materials. 
 The left side also has holes for 4 LED's.
