@@ -213,8 +213,6 @@ $EndComp
 Wire Wire Line
 	14900 3850 14900 6300
 Wire Wire Line
-	13550 3850 14900 3850
-Wire Wire Line
 	12050 4900 12050 4850
 Wire Wire Line
 	12200 4900 12050 4900
@@ -431,8 +429,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11450
 	1    11450 12050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	11700 3850 12600 3850
 Wire Wire Line
 	11700 12750 11700 12050
 Wire Wire Line
@@ -659,11 +655,9 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9800 3850 10800 3850
-Wire Wire Line
 	10800 3850 10800 5050
 Wire Wire Line
-	9800 12750 9800 12000
+	9800 12900 9800 12000
 Wire Wire Line
 	8750 11900 8800 11900
 Wire Wire Line
@@ -879,8 +873,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 
 $EndComp
 Wire Wire Line
 	8800 3850 8800 4850
-Wire Wire Line
-	7900 3850 8800 3850
 Connection ~ 7300 10050
 Connection ~ 14050 10050
 Connection ~ 10400 11300
@@ -1588,10 +1580,10 @@ Wire Wire Line
 Connection ~ 3950 9700
 Text Label 3050 9350 0    50   ~ 0
 GND
-Text GLabel 9800 12750 3    50   BiDi ~ 0
-COL3+4
-Text GLabel 11700 12750 3    50   BiDi ~ 0
-COL5+6
+Text GLabel 8800 11900 3    50   BiDi ~ 0
+COL2
+Text GLabel 9800 12900 3    50   BiDi ~ 0
+COL3
 Text GLabel 2750 9350 0    50   Input ~ 0
 GND
 $Comp
@@ -1688,10 +1680,10 @@ Wire Wire Line
 	2900 11150 2750 11150
 Text GLabel 2200 10050 0    50   Input ~ 0
 PWM1
-Text GLabel 7900 12900 3    50   Input ~ 0
-COL1+2
+Text GLabel 7900 13050 3    50   Input ~ 0
+COL1
 Wire Wire Line
-	7900 11900 7900 12900
+	7900 11900 7900 13050
 Text GLabel 6800 4250 0    50   Input ~ 0
 ROW1
 Text GLabel 6850 5700 0    50   Input ~ 0
@@ -1728,54 +1720,16 @@ Wire Wire Line
 	2450 11700 2250 11700
 Wire Wire Line
 	2900 11700 2750 11700
-$Comp
-L pcb-flat-left-rescue:Teensy++2.0_(Arduino)-Teensy-pcb-flat-right-rescue U?
-U 1 1 5FA2CB10
-P 20300 7300
-AR Path="/5F5CF1CF/5FA2CB10" Ref="U?"  Part="1" 
-AR Path="/5FA2CB10" Ref="U1"  Part="1" 
-F 0 "U1" H 20300 8937 60  0000 C CNN
-F 1 "Teensy++2.0_(Arduino)" H 20300 8831 60  0000 C CNN
-F 2 "Teensy:Teensy2.0-pins-headers" H 20400 6650 60  0001 C CNN
-F 3 "" H 20400 6650 60  0000 C CNN
-	1    20300 7300
-	1    0    0    -1  
-$EndComp
 Text GLabel 19350 5950 0    50   BiDi ~ 0
 GND
 Text GLabel 19450 8050 0    50   BiDi ~ 0
 GND
 Text GLabel 21150 8250 2    50   BiDi ~ 0
 GND
-$Comp
-L Connector:DB15_Female J?
-U 1 1 5FA2CB1C
-P 20650 3800
-AR Path="/5F5CF1CF/5FA2CB1C" Ref="J?"  Part="1" 
-AR Path="/5FA2CB1C" Ref="J1"  Part="1" 
-F 0 "J1" H 20804 3846 50  0000 L CNN
-F 1 "DB15_Female" H 20804 3755 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" H 20650 3800 50  0001 C CNN
-F 3 " ~" H 20650 3800 50  0001 C CNN
-	1    20650 3800
-	1    0    0    -1  
-$EndComp
-Text GLabel 19900 3100 0    50   Input ~ 0
+Text GLabel 19650 2350 0    50   Input ~ 0
 ROW1ext
 Wire Wire Line
-	20350 3100 19900 3100
-Text GLabel 19900 3200 0    50   Input ~ 0
-ROW2ext
-Wire Wire Line
-	19900 3200 20350 3200
-Text GLabel 19900 3300 0    50   Input ~ 0
-ROW3ext
-Wire Wire Line
-	20350 3300 19900 3300
-Text GLabel 19900 4500 0    50   BiDi ~ 0
-Arrow-Right
-Wire Wire Line
-	20350 4500 19900 4500
+	20100 2350 19650 2350
 NoConn ~ 19600 7950
 NoConn ~ 19600 8150
 NoConn ~ 21000 8350
@@ -1792,14 +1746,6 @@ Wire Wire Line
 	19400 7650 19600 7650
 Wire Wire Line
 	19600 7750 19400 7750
-Text GLabel 19500 8650 0    50   Input ~ 0
-COL1+2
-Text GLabel 19500 8550 0    50   Input ~ 0
-COL3+4
-Text GLabel 19500 8450 0    50   Input ~ 0
-COL5+6
-Text GLabel 19500 8350 0    50   Input ~ 0
-COL7+8
 Wire Wire Line
 	19600 8650 19500 8650
 Wire Wire Line
@@ -1808,28 +1754,14 @@ Wire Wire Line
 	19600 8450 19500 8450
 Wire Wire Line
 	19600 8350 19500 8350
-Text GLabel 21150 7650 2    50   Input ~ 0
-COL1+2ext
-Wire Wire Line
-	21150 7650 21000 7650
-NoConn ~ 21000 8050
-NoConn ~ 21000 8150
 Text GLabel 19400 6050 0    50   Input ~ 0
 PWM4
 Wire Wire Line
 	19600 6050 19400 6050
-Text GLabel 19150 6450 0    50   Input ~ 0
-COL7+8ext
-Text GLabel 19150 6350 0    50   Input ~ 0
-COL5+6ext
-Text GLabel 19150 6250 0    50   Input ~ 0
-COL3+4ext
 Wire Wire Line
 	21000 8250 21150 8250
 Wire Wire Line
 	19450 8050 19600 8050
-Wire Wire Line
-	19350 5950 19400 5950
 Wire Wire Line
 	2750 9350 3950 9350
 Connection ~ 3200 11150
@@ -1881,8 +1813,8 @@ F 4 "arrow-down" V 13850 11850 50  0000 C CNN "Field4"
 	1    14050 11600
 	0    1    1    0   
 $EndComp
-Text GLabel 13550 12800 3    50   BiDi ~ 0
-COL7+8
+Text GLabel 10800 12300 3    50   BiDi ~ 0
+COL4
 Wire Wire Line
 	14900 7850 14900 10650
 Wire Wire Line
@@ -1972,54 +1904,18 @@ NoConn ~ 21000 6550
 NoConn ~ 21000 7150
 NoConn ~ 21000 6950
 NoConn ~ 21000 6450
-NoConn ~ 21000 6850
 Text GLabel 19400 7850 0    50   BiDi ~ 0
 Arrow-Left
-Text GLabel 19900 3400 0    50   Input ~ 0
-ROW4ext
-Text GLabel 19900 3500 0    50   Input ~ 0
-ROW5ext
-Text GLabel 19900 3600 0    50   Input ~ 0
-ROW6ext
-Wire Wire Line
-	20350 3400 19900 3400
-Wire Wire Line
-	19900 3500 20350 3500
-Wire Wire Line
-	19900 3600 20350 3600
-Wire Wire Line
-	20350 4300 19900 4300
-Text GLabel 19900 4300 0    50   Input ~ 0
-COL7+8ext
-Wire Wire Line
-	20350 4200 19900 4200
-Text GLabel 19900 4200 0    50   Input ~ 0
-COL5+6ext
-Wire Wire Line
-	19900 4100 20350 4100
-Wire Wire Line
-	20350 4000 19900 4000
-Text GLabel 19900 4100 0    50   Input ~ 0
-COL3+4ext
-Text GLabel 19900 4000 0    50   Input ~ 0
-COL1+2ext
-Wire Wire Line
-	20350 4400 19750 4400
-Text GLabel 19750 4400 0    50   BiDi ~ 0
+Text GLabel 20250 4950 0    50   BiDi ~ 0
 GND
-NoConn ~ 20350 3800
-NoConn ~ 20350 3900
 Wire Wire Line
 	19600 6150 19150 6150
-Text GLabel 19150 6150 0    50   Input ~ 0
-COL1+2ext
 Wire Wire Line
 	19150 6250 19600 6250
 Wire Wire Line
 	19150 6350 19600 6350
 Wire Wire Line
 	19150 6450 19600 6450
-NoConn ~ 20350 3700
 Text GLabel 19150 7250 0    50   Input ~ 0
 ROW1ext
 Wire Wire Line
@@ -2034,20 +1930,8 @@ Wire Wire Line
 	19600 7450 19150 7450
 Text GLabel 19150 8250 0    50   Input ~ 0
 ROW4ext
-Text GLabel 21600 7850 2    50   Input ~ 0
-ROW5ext
-Text GLabel 21600 7750 2    50   Input ~ 0
-ROW6ext
 Wire Wire Line
 	19600 8250 19150 8250
-Wire Wire Line
-	21000 7850 21600 7850
-Wire Wire Line
-	21000 7750 21600 7750
-NoConn ~ 21000 7950
-NoConn ~ 21000 7550
-NoConn ~ 21000 7450
-NoConn ~ 21000 7350
 Text Label 7600 5700 0    50   ~ 0
 ROW2
 Text Label 7450 7250 0    50   ~ 0
@@ -2059,17 +1943,13 @@ ROW5
 Text Label 7500 11300 0    50   ~ 0
 ROW6
 Text Label 7900 12500 0    50   ~ 0
-COL1+2
-Text Label 9800 12500 0    50   ~ 0
-COL3+4
-Text Label 11700 12400 0    50   ~ 0
-COL5+6
-Text Label 13550 12450 0    50   ~ 0
-COL7+8
+COL1
+Text Label 9800 12350 0    50   ~ 0
+COL3
+Text Label 10800 11850 0    50   ~ 0
+COL4
 Text Label 15950 12350 0    50   ~ 0
 col-left-arrow
-NoConn ~ 21000 8450
-NoConn ~ 21000 8550
 NoConn ~ 21000 5950
 NoConn ~ 21000 6050
 Text GLabel 21250 8650 2    50   BiDi ~ 0
@@ -2079,22 +1959,182 @@ Arrow-Right
 Wire Wire Line
 	21000 8650 21250 8650
 NoConn ~ 21000 7050
+Wire Wire Line
+	19350 5950 19600 5950
+Text Label 8800 11550 0    50   ~ 0
+COL2
+Text GLabel 11700 12750 3    50   Input ~ 0
+COL5
+Text GLabel 12600 11900 3    50   Input ~ 0
+COL6
+Text Label 11700 12350 0    50   ~ 0
+COL5
+Text GLabel 13550 12800 3    50   Input ~ 0
+COL7
+Text Label 13550 12300 0    50   ~ 0
+COL7
+Text GLabel 14900 11900 3    50   Input ~ 0
+COL8
+Text Label 14900 11600 0    50   ~ 0
+COL8
+Wire Wire Line
+	10800 12300 10800 12100
+Connection ~ 10800 12100
+Text GLabel 19150 6150 0    50   Input ~ 0
+COL1
+Text GLabel 19150 6250 0    50   Input ~ 0
+COL2
+Text GLabel 19150 6350 0    50   Input ~ 0
+COL3
+Text GLabel 19150 6450 0    50   Input ~ 0
+COL4
+Text GLabel 19500 8350 0    50   Input ~ 0
+COL5
+Text GLabel 19500 8450 0    50   Input ~ 0
+COL6
+Text GLabel 19500 8550 0    50   Input ~ 0
+COL7
+Text GLabel 19500 8650 0    50   Input ~ 0
+COL8
 $Comp
-L Keyboard:GND #PWR?
-U 1 1 5F6F79D4
-P 19500 5800
-F 0 "#PWR?" H 19500 5850 20  0001 C CNN
-F 1 "GND" H 19500 5859 30  0000 C CNN
-F 2 "" H 19500 5800 60  0000 C CNN
-F 3 "" H 19500 5800 60  0000 C CNN
-	1    19500 5800
+L pcb-flat-left-rescue:Teensy++2.0_(Arduino)-Teensy-pcb-flat-right-rescue U?
+U 1 1 5FA2CB10
+P 20300 7300
+AR Path="/5F5CF1CF/5FA2CB10" Ref="U?"  Part="1" 
+AR Path="/5FA2CB10" Ref="U1"  Part="1" 
+F 0 "U1" H 20300 8937 60  0000 C CNN
+F 1 "Teensy++2.0_(Arduino)" H 20300 8831 60  0000 C CNN
+F 2 "Teensy:Teensy2.0-pins-headers" H 20400 6650 60  0001 C CNN
+F 3 "" H 20400 6650 60  0000 C CNN
+	1    20300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB25_Female_MountingHoles J1
+U 1 1 5F7E6D70
+P 20400 3550
+F 0 "J1" H 20580 3597 50  0000 L CNN
+F 1 "5745783-4 " H 20580 3506 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 20400 3550 50  0001 C CNN
+F 3 " ~" H 20400 3550 50  0001 C CNN
+F 4 "DSUB-25-female-horiz" H 20580 3415 50  0000 L CNN "Field4"
+	1    20400 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19500 5800 19400 5800
+	20400 4950 20250 4950
 Wire Wire Line
-	19400 5800 19400 5950
-Connection ~ 19400 5950
+	19600 3650 20100 3650
 Wire Wire Line
-	19400 5950 19600 5950
+	19600 3550 20100 3550
+Wire Wire Line
+	19600 3450 20100 3450
+Wire Wire Line
+	19600 3350 20100 3350
+Wire Wire Line
+	19600 3250 20100 3250
+Wire Wire Line
+	19600 3150 20100 3150
+Wire Wire Line
+	20100 3050 19600 3050
+Wire Wire Line
+	19600 2950 20100 2950
+Text GLabel 19600 3650 0    50   Input ~ 0
+COL8x
+Text GLabel 19600 3550 0    50   Input ~ 0
+COL7x
+Text GLabel 19600 3450 0    50   Input ~ 0
+COL6x
+Text GLabel 19600 3350 0    50   Input ~ 0
+COL5x
+Text GLabel 19600 3250 0    50   Input ~ 0
+COL4x
+Text GLabel 19600 3150 0    50   Input ~ 0
+COL3x
+Text GLabel 19600 3050 0    50   Input ~ 0
+COL2x
+Text GLabel 19600 2950 0    50   Input ~ 0
+COL1x
+Wire Wire Line
+	19650 2850 20100 2850
+Wire Wire Line
+	19650 2750 20100 2750
+Wire Wire Line
+	20100 2650 19650 2650
+Text GLabel 19650 2850 0    50   Input ~ 0
+ROW6ext
+Text GLabel 19650 2750 0    50   Input ~ 0
+ROW5ext
+Text GLabel 19650 2650 0    50   Input ~ 0
+ROW4ext
+Wire Wire Line
+	20100 3750 19650 3750
+Text GLabel 19650 3750 0    50   BiDi ~ 0
+Arrow-Right
+Wire Wire Line
+	20100 2550 19650 2550
+Text GLabel 19650 2550 0    50   Input ~ 0
+ROW3ext
+Wire Wire Line
+	19650 2450 20100 2450
+Text GLabel 19650 2450 0    50   Input ~ 0
+ROW2ext
+Text GLabel 21500 8450 2    50   Input ~ 0
+ROW5
+Text GLabel 21500 8550 2    50   Input ~ 0
+ROW6
+Wire Wire Line
+	21000 8550 21500 8550
+Wire Wire Line
+	21500 8450 21000 8450
+Wire Wire Line
+	21500 8150 21000 8150
+Wire Wire Line
+	21500 8050 21000 8050
+Wire Wire Line
+	21500 7950 21000 7950
+Wire Wire Line
+	21500 7850 21000 7850
+Wire Wire Line
+	21500 7750 21000 7750
+Wire Wire Line
+	21500 7650 21000 7650
+Wire Wire Line
+	21000 7450 21500 7450
+Wire Wire Line
+	21500 7550 21000 7550
+Text GLabel 21500 8150 2    50   Input ~ 0
+COL8x
+Text GLabel 21500 8050 2    50   Input ~ 0
+COL7x
+Text GLabel 21500 7950 2    50   Input ~ 0
+COL6x
+Text GLabel 21500 7850 2    50   Input ~ 0
+COL5x
+Text GLabel 21500 7750 2    50   Input ~ 0
+COL4x
+Text GLabel 21500 7650 2    50   Input ~ 0
+COL3x
+Text GLabel 21500 7450 2    50   Input ~ 0
+COL2x
+Text GLabel 21500 7550 2    50   Input ~ 0
+COL1x
+NoConn ~ 20100 3850
+NoConn ~ 20100 3950
+NoConn ~ 20100 4050
+NoConn ~ 20100 4150
+NoConn ~ 20100 4250
+NoConn ~ 20100 4350
+NoConn ~ 20100 4450
+NoConn ~ 20100 4550
+NoConn ~ 20100 4650
+NoConn ~ 20100 4750
+Text GLabel 21500 7350 2    50   Input ~ 0
+ROW5ext
+Wire Wire Line
+	21500 7350 21000 7350
+Text GLabel 21400 6850 2    50   Input ~ 0
+ROW6ext
+Wire Wire Line
+	21400 6850 21000 6850
 $EndSCHEMATC
