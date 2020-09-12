@@ -1,12 +1,6 @@
 # 98keys-ergo
 A 98 key ergonomic,split keyboard.
 
-THE PCB BOARDS AND MATRIXES ARE WIRED WRONG!
-THIS WILL BE FIXED! 
-
-Layout, left side:
-http://www.keyboard-layout-editor.com/#/gists/2fea0143064790fed378761bfa7f5600
-
 Left side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/left/mechanical/left-switch-holes.pdf
 
@@ -26,10 +20,6 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/cable.pdf
 
 More files:
 https://github.com/Supermagnum/98keys-ergo
-
-Todo: add links to the PCB boards with part sets.
-Rework the switching matrixes, should be traditional and not "U" shaped.
-
 
 
 Cherry MX switches should fit the holes.
