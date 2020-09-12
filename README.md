@@ -7,12 +7,18 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/left/mechanical/left-swit
 Left side electrical connections:
 https://github.com/Supermagnum/98keys-ergo/blob/master/left/pcb-flat-left-elec-diagram.pdf
 
+Left side PCB:
+https://aisler.net/p/OXGECRVD
+
 
 Right side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/right/mechanical/right-switch-holes.pdf
 
 Right side electrical connections:
 https://github.com/Supermagnum/98keys-ergo/blob/master/right/pcb-flat-right-elec-diagram.pdf
+
+Right side PCB:
+https://aisler.net/p/CHPGJUXC
 
 How to wire up the connecting cable:
 https://github.com/Supermagnum/98keys-ergo/blob/master/cable.pdf
