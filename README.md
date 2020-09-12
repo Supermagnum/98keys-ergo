@@ -14,7 +14,7 @@ Right side switch plate:
 https://github.com/Supermagnum/98keys-ergo/blob/master/right/mechanical/right-switch-holes.pdf
 
 Right side electrical connections:
-https://github.com/Supermagnum/98keys-ergo/blob/master/right/pcb-flat-right-elec-diagram.pdf
+https://github.com/Supermagnum/98keys-ergo/blob/master/right/pcb-flat-right.pdf
 
 Right side PCB:
 https://aisler.net/p/CHPGJUXC
