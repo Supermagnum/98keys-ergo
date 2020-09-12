@@ -174,8 +174,8 @@
       (place H6 138000 -247500 front 0 (PN MountingHole_Pad))
       (place H8 33000 -247500 front 0 (PN MountingHole_Pad))
     )
-    (component "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
-      (place J1 32700 -192500 back 270 (PN DB15_Female))
+    (component "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"
+      (place J1 32000 -159930 back 270 (PN DB25_Female_MountingHoles))
     )
   )
   (library
@@ -399,58 +399,68 @@
             3425.8 1525.26  3668.05 779.669  3750 0))
       (pin Round[A]Pad_7500_um 1 0 0)
     )
-    (image "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
-      (outline (path signal 50  11650 2150  -20250 2150))
-      (outline (path signal 50  11650 -13900  11650 2150))
-      (outline (path signal 50  -20250 -13900  11650 -13900))
-      (outline (path signal 50  -20250 2150  -20250 -13900))
-      (outline (path signal 120  0 2131.32  -250 2564.34))
-      (outline (path signal 120  250 2564.34  0 2131.32))
-      (outline (path signal 120  -250 2564.34  250 2564.34))
-      (outline (path signal 120  11170 1670  11170 -6930))
-      (outline (path signal 120  -19800 1670  11170 1670))
-      (outline (path signal 120  -19800 -6930  -19800 1670))
-      (outline (path signal 100  9785 -6990  9785 -2050))
-      (outline (path signal 100  6585 -6990  6585 -2050))
-      (outline (path signal 100  -15215 -6990  -15215 -2050))
-      (outline (path signal 100  -18415 -6990  -18415 -2050))
-      (outline (path signal 100  10685 -7390  5685 -7390))
-      (outline (path signal 100  10685 -12390  10685 -7390))
-      (outline (path signal 100  5685 -12390  10685 -12390))
-      (outline (path signal 100  5685 -7390  5685 -12390))
-      (outline (path signal 100  -14315 -7390  -19315 -7390))
-      (outline (path signal 100  -14315 -12390  -14315 -7390))
-      (outline (path signal 100  -19315 -12390  -14315 -12390))
-      (outline (path signal 100  -19315 -7390  -19315 -12390))
-      (outline (path signal 100  3835 -7390  -12465 -7390))
-      (outline (path signal 100  3835 -13390  3835 -7390))
-      (outline (path signal 100  -12465 -13390  3835 -13390))
-      (outline (path signal 100  -12465 -7390  -12465 -13390))
-      (outline (path signal 100  11110 -6990  -19740 -6990))
-      (outline (path signal 100  11110 -7390  11110 -6990))
-      (outline (path signal 100  -19740 -7390  11110 -7390))
-      (outline (path signal 100  -19740 -6990  -19740 -7390))
-      (outline (path signal 100  11110 1610  -19740 1610))
-      (outline (path signal 100  11110 -6990  11110 1610))
-      (outline (path signal 100  -19740 -6990  11110 -6990))
-      (outline (path signal 100  -19740 1610  -19740 -6990))
+    (image "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"
+      (outline (path signal 50  10450 3250  -43700 3250))
+      (outline (path signal 50  10450 -14850  10450 3250))
+      (outline (path signal 50  -43700 -14850  10450 -14850))
+      (outline (path signal 50  -43700 3250  -43700 -14850))
+      (outline (path signal 120  0 3221.32  -250 3654.34))
+      (outline (path signal 120  250 3654.34  0 3221.32))
+      (outline (path signal 120  -250 3654.34  250 3654.34))
+      (outline (path signal 120  9990 2760  9990 -7720))
+      (outline (path signal 120  -43230 2760  9990 2760))
+      (outline (path signal 120  -43230 -7720  -43230 2760))
+      (outline (path signal 100  8530 -7780  8530 -300))
+      (outline (path signal 100  5330 -7780  5330 -300))
+      (outline (path signal 100  -38570 -7780  -38570 -300))
+      (outline (path signal 100  -41770 -7780  -41770 -300))
+      (outline (path signal 100  9430 -8180  4430 -8180))
+      (outline (path signal 100  9430 -13180  9430 -8180))
+      (outline (path signal 100  4430 -13180  9430 -13180))
+      (outline (path signal 100  4430 -8180  4430 -13180))
+      (outline (path signal 100  -37670 -8180  -42670 -8180))
+      (outline (path signal 100  -37670 -13180  -37670 -8180))
+      (outline (path signal 100  -42670 -13180  -37670 -13180))
+      (outline (path signal 100  -42670 -8180  -42670 -13180))
+      (outline (path signal 100  2530 -8180  -35770 -8180))
+      (outline (path signal 100  2530 -14350  2530 -8180))
+      (outline (path signal 100  -35770 -14350  2530 -14350))
+      (outline (path signal 100  -35770 -8180  -35770 -14350))
+      (outline (path signal 100  9930 -7780  -43170 -7780))
+      (outline (path signal 100  9930 -8180  9930 -7780))
+      (outline (path signal 100  -43170 -8180  9930 -8180))
+      (outline (path signal 100  -43170 -7780  -43170 -8180))
+      (outline (path signal 100  9930 2700  -43170 2700))
+      (outline (path signal 100  9930 -7780  9930 2700))
+      (outline (path signal 100  -43170 -7780  9930 -7780))
+      (outline (path signal 100  -43170 2700  -43170 -7780))
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
-      (pin Round[A]Pad_1600_um 2 -2290 0)
-      (pin Round[A]Pad_1600_um 3 -4580 0)
-      (pin Round[A]Pad_1600_um 4 -6870 0)
-      (pin Round[A]Pad_1600_um 5 -9160 0)
-      (pin Round[A]Pad_1600_um 6 1145 -1980)
-      (pin Round[A]Pad_1600_um 7 -1145 -1980)
-      (pin Round[A]Pad_1600_um 8 -3435 -1980)
-      (pin Round[A]Pad_1600_um 9 -5725 -1980)
-      (pin Round[A]Pad_1600_um 10 -8015 -1980)
-      (pin Round[A]Pad_1600_um 11 0 -3960)
-      (pin Round[A]Pad_1600_um 12 -2290 -3960)
-      (pin Round[A]Pad_1600_um 13 -4580 -3960)
-      (pin Round[A]Pad_1600_um 14 -6870 -3960)
-      (pin Round[A]Pad_1600_um 15 -9160 -3960)
-      (pin Round[A]Pad_4000_um 0 -16815 -2050)
-      (pin Round[A]Pad_4000_um 0@1 8185 -2050)
+      (pin Round[A]Pad_1600_um 2 -2770 0)
+      (pin Round[A]Pad_1600_um 3 -5540 0)
+      (pin Round[A]Pad_1600_um 4 -8310 0)
+      (pin Round[A]Pad_1600_um 5 -11080 0)
+      (pin Round[A]Pad_1600_um 6 -13850 0)
+      (pin Round[A]Pad_1600_um 7 -16620 0)
+      (pin Round[A]Pad_1600_um 8 -19390 0)
+      (pin Round[A]Pad_1600_um 9 -22160 0)
+      (pin Round[A]Pad_1600_um 10 -24930 0)
+      (pin Round[A]Pad_1600_um 11 -27700 0)
+      (pin Round[A]Pad_1600_um 12 -30470 0)
+      (pin Round[A]Pad_1600_um 13 -33240 0)
+      (pin Round[A]Pad_1600_um 14 -1385 -2840)
+      (pin Round[A]Pad_1600_um 15 -4155 -2840)
+      (pin Round[A]Pad_1600_um 16 -6925 -2840)
+      (pin Round[A]Pad_1600_um 17 -9695 -2840)
+      (pin Round[A]Pad_1600_um 18 -12465 -2840)
+      (pin Round[A]Pad_1600_um 19 -15235 -2840)
+      (pin Round[A]Pad_1600_um 20 -18005 -2840)
+      (pin Round[A]Pad_1600_um 21 -20775 -2840)
+      (pin Round[A]Pad_1600_um 22 -23545 -2840)
+      (pin Round[A]Pad_1600_um 23 -26315 -2840)
+      (pin Round[A]Pad_1600_um 24 -29085 -2840)
+      (pin Round[A]Pad_1600_um 25 -31855 -2840)
+      (pin Round[A]Pad_4000_um 0 -40170 -300)
+      (pin Round[A]Pad_4000_um 0@1 6930 -300)
     )
     (padstack Round[A]Pad_1600_um
       (shape (circle F.Cu 1600))
@@ -489,9 +499,6 @@
     )
   )
   (network
-    (net COL1+2
-      (pins D1-1 D2-1 D3-1 D4-1 D5-1 D6-1 D7-1 D8-1 D9-1 D10-1 D11-1 D12-1 J1-13)
-    )
     (net "Net-(D1-Pad2)"
       (pins D1-2 SW1-2)
     )
@@ -531,10 +538,6 @@
     (net "Net-(D14-Pad2)"
       (pins D14-2 SW13-2)
     )
-    (net COL3+4
-      (pins D14-1 D15-1 D16-1 D17-1 D18-1 D19-1 D20-1 D21-1 D22-1 D23-1 D24-1 D25-1
-        J1-6)
-    )
     (net "Net-(D15-Pad2)"
       (pins D15-2 SW14-2)
     )
@@ -571,10 +574,6 @@
     (net "Net-(D26-Pad2)"
       (pins D26-2 SW25-2)
     )
-    (net COL5+6
-      (pins D26-1 D27-1 D28-1 D29-1 D30-1 D31-1 D32-1 D33-1 D34-1 D35-1 D36-1 D45-1
-        J1-14)
-    )
     (net "Net-(D27-Pad2)"
       (pins D27-2 SW27-2)
     )
@@ -604,9 +603,6 @@
     )
     (net "Net-(D36-Pad2)"
       (pins D36-2 SW34-2)
-    )
-    (net COL7+8
-      (pins D37-1 D38-1 D39-1 D40-1 D41-1 D42-1 D43-1 D44-1 D47-1 J1-7)
     )
     (net "Net-(D37-Pad2)"
       (pins D37-2 SW36-2)
@@ -645,7 +641,7 @@
       (pins D48-2 SW47-2)
     )
     (net GND
-      (pins H1-1 H2-1 H3-1 H4-1 H5-1 H6-1 H7-1 H8-1 J1-15)
+      (pins H1-1 H2-1 H3-1 H4-1 H5-1 H6-1 H7-1 H8-1 J1-0 J1-0@1)
     )
     (net "Arrow-Right"
       (pins D46-1 D48-1 J1-8)
@@ -659,38 +655,83 @@
     (net ROW5
       (pins SW4-1 SW10-1 SW16-1 SW22-1 SW28-1 SW34-1 SW39-1 SW43-1 SW45-1 J1-3)
     )
-    (net "Net-(J1-Pad4)"
-      (pins J1-4)
-    )
-    (net "Net-(J1-Pad5)"
-      (pins J1-5)
-    )
     (net ROW2
-      (pins SW2-1 SW8-1 SW14-1 SW20-1 SW26-1 SW32-1 SW37-1 SW41-1 J1-9)
+      (pins SW2-1 SW8-1 SW14-1 SW20-1 SW26-1 SW32-1 SW37-1 SW41-1 J1-14)
     )
     (net ROW4
-      (pins SW5-1 SW11-1 SW17-1 SW23-1 SW29-1 SW35-1 SW40-1 J1-10)
+      (pins SW5-1 SW11-1 SW17-1 SW23-1 SW29-1 SW35-1 SW40-1 J1-15)
     )
     (net ROW6
-      (pins SW6-1 SW12-1 SW18-1 SW24-1 SW30-1 SW44-1 SW46-1 SW47-1 J1-11)
+      (pins SW6-1 SW12-1 SW18-1 SW24-1 SW30-1 SW44-1 SW46-1 SW47-1 J1-16)
     )
     (net "Net-(J1-Pad12)"
       (pins J1-12)
     )
-    (class kicad_default "" /ROW1+2 /ROW3+4 /ROW5+6 "Arrow-Right" COL1+2 COL3+4
-      COL5+6 COL7+8 GND "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
-      "Net-(D12-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)"
-      "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad2)"
-      "Net-(D21-Pad2)" "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)"
-      "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)"
-      "Net-(D29-Pad2)" "Net-(D3-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)" "Net-(D32-Pad2)"
-      "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)" "Net-(D36-Pad2)"
-      "Net-(D37-Pad2)" "Net-(D38-Pad2)" "Net-(D39-Pad2)" "Net-(D4-Pad2)" "Net-(D40-Pad2)"
-      "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)" "Net-(D44-Pad2)"
-      "Net-(D45-Pad2)" "Net-(D46-Pad2)" "Net-(D47-Pad2)" "Net-(D48-Pad2)"
-      "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)"
-      "Net-(J1-Pad12)" "Net-(J1-Pad4)" "Net-(J1-Pad5)" ROW1 ROW2 ROW3 ROW4
-      ROW5 ROW6 arrowsC arrowsR
+    (net COL1
+      (pins D1-1 D2-1 D3-1 D4-1 D5-1 D6-1 J1-4)
+    )
+    (net COL2
+      (pins D7-1 D8-1 D9-1 D10-1 D11-1 D12-1 J1-17)
+    )
+    (net COL3
+      (pins D14-1 D15-1 D16-1 D17-1 D18-1 D19-1 J1-5)
+    )
+    (net COL4
+      (pins D20-1 D21-1 D22-1 D23-1 D24-1 D25-1 J1-18)
+    )
+    (net COL5
+      (pins D26-1 D27-1 D28-1 D29-1 D30-1 D31-1 J1-6)
+    )
+    (net COL6
+      (pins D32-1 D33-1 D34-1 D35-1 D36-1 D45-1 J1-19)
+    )
+    (net COL7
+      (pins D37-1 D38-1 D39-1 D40-1 D41-1 J1-7)
+    )
+    (net COL8
+      (pins D42-1 D43-1 D44-1 D47-1 J1-20)
+    )
+    (net "Net-(J1-Pad9)"
+      (pins J1-9)
+    )
+    (net "Net-(J1-Pad10)"
+      (pins J1-10)
+    )
+    (net "Net-(J1-Pad11)"
+      (pins J1-11)
+    )
+    (net "Net-(J1-Pad13)"
+      (pins J1-13)
+    )
+    (net "Net-(J1-Pad21)"
+      (pins J1-21)
+    )
+    (net "Net-(J1-Pad22)"
+      (pins J1-22)
+    )
+    (net "Net-(J1-Pad23)"
+      (pins J1-23)
+    )
+    (net "Net-(J1-Pad24)"
+      (pins J1-24)
+    )
+    (net "Net-(J1-Pad25)"
+      (pins J1-25)
+    )
+    (class kicad_default "" "Arrow-Right" COL1+2 COL3+4 COL5+6 COL7+8 GND
+      "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D14-Pad2)"
+      "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)"
+      "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)"
+      "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)"
+      "Net-(D27-Pad2)" "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D3-Pad2)" "Net-(D30-Pad2)"
+      "Net-(D31-Pad2)" "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)"
+      "Net-(D35-Pad2)" "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)"
+      "Net-(D39-Pad2)" "Net-(D4-Pad2)" "Net-(D40-Pad2)" "Net-(D41-Pad2)" "Net-(D42-Pad2)"
+      "Net-(D43-Pad2)" "Net-(D44-Pad2)" "Net-(D45-Pad2)" "Net-(D46-Pad2)"
+      "Net-(D47-Pad2)" "Net-(D48-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)"
+      "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(J1-Pad10)" "Net-(J1-Pad11)" "Net-(J1-Pad12)"
+      "Net-(J1-Pad13)" "Net-(J1-Pad21)" "Net-(J1-Pad22)" "Net-(J1-Pad23)"
+      "Net-(J1-Pad24)" "Net-(J1-Pad25)" "Net-(J1-Pad4)" "Net-(J1-Pad5)" "Net-(J1-Pad9)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
@@ -699,7 +740,16 @@
         (clearance 200.1)
       )
     )
-    (class rows
+    (class columns COL1 COL2 COL3 COL4 COL5 COL6 COL7 COL8
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+    (class rows ROW1 ROW2 ROW3 ROW4 ROW5 ROW6
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

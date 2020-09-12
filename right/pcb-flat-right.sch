@@ -261,10 +261,6 @@ $EndComp
 Wire Wire Line
 	12350 1350 12350 3800
 Wire Wire Line
-	11000 1350 12350 1350
-Wire Wire Line
-	11000 10300 11000 8400
-Wire Wire Line
 	9500 2400 9500 2350
 Wire Wire Line
 	9650 2400 9500 2400
@@ -481,10 +477,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8900 
 	1    8900 9550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9150 1350 10050 1350
-Wire Wire Line
-	9150 10250 9150 9550
 Wire Wire Line
 	8250 3950 8250 5550
 Connection ~ 8250 3950
@@ -709,11 +701,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7250 1350 8250 1350
-Wire Wire Line
 	8250 1350 8250 2550
-Wire Wire Line
-	7250 10250 7250 9500
 Wire Wire Line
 	6200 9400 6250 9400
 Wire Wire Line
@@ -929,8 +917,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 
 $EndComp
 Wire Wire Line
 	6250 1350 6250 2350
-Wire Wire Line
-	5350 1350 6250 1350
 Connection ~ 4750 7550
 Connection ~ 8700 8800
 Connection ~ 7850 8800
@@ -1636,31 +1622,8 @@ Wire Wire Line
 Connection ~ 18200 4200
 Text Label 17300 3850 0    50   ~ 0
 GND
-Text GLabel 7250 10250 3    50   BiDi ~ 0
-COL3+4
-Text GLabel 9150 10250 3    50   BiDi ~ 0
-COL5+6
-Text GLabel 11000 10300 3    50   BiDi ~ 0
-COL7+8
 Text GLabel 17000 3850 0    50   Input ~ 0
 GND
-Text GLabel 5350 10400 3    50   Input ~ 0
-COL1+2
-Wire Wire Line
-	5350 9400 5350 10400
-$Comp
-L Connector:DB15_Female J?
-U 1 1 5FA2CB1C
-P 14750 4800
-AR Path="/5F5CF1CF/5FA2CB1C" Ref="J?"  Part="1" 
-AR Path="/5FA2CB1C" Ref="J1"  Part="1" 
-F 0 "J1" H 14904 4846 50  0000 L CNN
-F 1 "DB15_Female" H 14904 4755 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 14750 4800 50  0001 C CNN
-F 3 " ~" H 14750 4800 50  0001 C CNN
-	1    14750 4800
-	1    0    0    -1  
-$EndComp
 Text GLabel 14000 4100 0    50   Input ~ 0
 ROW1
 Wire Wire Line
@@ -1671,28 +1634,10 @@ Wire Wire Line
 	14000 4300 14450 4300
 Wire Wire Line
 	14450 4500 14000 4500
-Text GLabel 14000 5000 0    50   Input ~ 0
-COL1+2
-Text GLabel 14000 5100 0    50   Input ~ 0
-COL3+4
-Wire Wire Line
-	14450 5000 14000 5000
-Wire Wire Line
-	14000 5100 14450 5100
-Text GLabel 14000 5200 0    50   Input ~ 0
-COL5+6
-Wire Wire Line
-	14450 5200 14000 5200
-Text GLabel 14000 5300 0    50   Input ~ 0
-COL7+8
-Wire Wire Line
-	14450 5300 14000 5300
 Wire Wire Line
 	14450 5500 14000 5500
-Text GLabel 13850 5400 0    50   Input ~ 0
+Text GLabel 14650 6700 0    50   Input ~ 0
 GND
-Wire Wire Line
-	14450 5400 13850 5400
 Wire Wire Line
 	17000 3850 18200 3850
 Wire Wire Line
@@ -1780,17 +1725,98 @@ Wire Wire Line
 	14000 4600 14450 4600
 Text GLabel 14000 5500 0    50   BiDi ~ 0
 Arrow-Right
-NoConn ~ 14450 4700
-NoConn ~ 14450 4800
-NoConn ~ 14450 4900
-Text Label 5350 10050 0    50   ~ 0
-COL1+2
-Text Label 7250 9850 0    50   ~ 0
-COL3+4
-Text Label 9150 9950 0    50   ~ 0
-COL5+6
-Text Label 11000 9900 0    50   ~ 0
-COL7+8
 Text Label 13250 10000 0    50   ~ 0
 Arrow-col
+$Comp
+L Connector:DB25_Female_MountingHoles J1
+U 1 1 5F5F469C
+P 14750 5300
+F 0 "J1" H 14930 5302 50  0000 L CNN
+F 1 "5745783-4 " H 14930 5211 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 14750 5300 50  0001 C CNN
+F 3 " ~" H 14750 5300 50  0001 C CNN
+F 4 "DB-25-female" H 15250 5150 50  0000 C CNN "Field4"
+	1    14750 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 6700 14650 6700
+Text GLabel 14000 4700 0    50   Input ~ 0
+COL1
+Text GLabel 14000 4800 0    50   Input ~ 0
+COL2
+Text GLabel 14000 4900 0    50   Input ~ 0
+COL3
+Text GLabel 14000 5000 0    50   Input ~ 0
+COL4
+Text GLabel 14000 5100 0    50   Input ~ 0
+COL5
+Text GLabel 14000 5200 0    50   Input ~ 0
+COL6
+Text GLabel 14000 5300 0    50   Input ~ 0
+COL7
+Text GLabel 14000 5400 0    50   Input ~ 0
+COL8
+Wire Wire Line
+	14000 4700 14450 4700
+Wire Wire Line
+	14450 4800 14000 4800
+Wire Wire Line
+	14000 4900 14450 4900
+Wire Wire Line
+	14450 5000 14000 5000
+Wire Wire Line
+	14000 5100 14450 5100
+Wire Wire Line
+	14450 5200 14000 5200
+Wire Wire Line
+	14000 5300 14450 5300
+Wire Wire Line
+	14450 5400 14000 5400
+Text GLabel 5350 10850 3    50   Input ~ 0
+COL1
+Text GLabel 6250 9850 3    50   Input ~ 0
+COL2
+Text GLabel 7250 10700 3    50   Input ~ 0
+COL3
+Text GLabel 8250 10050 3    50   Input ~ 0
+COL4
+Text GLabel 9150 10700 3    50   Input ~ 0
+COL5
+Text GLabel 10150 9850 3    50   Input ~ 0
+COL6
+Text GLabel 11000 10750 3    50   Input ~ 0
+COL7
+Text GLabel 12350 9850 3    50   Input ~ 0
+COL8
+Wire Wire Line
+	6250 9400 6250 9850
+Wire Wire Line
+	8250 9600 8250 10050
+Wire Wire Line
+	10150 9400 10150 9850
+Wire Wire Line
+	12350 9400 12350 9850
+Wire Wire Line
+	5350 9400 5350 10850
+Connection ~ 6250 9400
+Wire Wire Line
+	7250 9500 7250 10700
+Connection ~ 8250 9600
+Wire Wire Line
+	9150 9550 9150 10700
+Connection ~ 10150 9400
+Wire Wire Line
+	11000 8400 11000 10750
+Connection ~ 12350 9400
+NoConn ~ 14450 5600
+NoConn ~ 14450 5700
+NoConn ~ 14450 5800
+NoConn ~ 14450 5900
+NoConn ~ 14450 6000
+NoConn ~ 14450 6100
+NoConn ~ 14450 6200
+NoConn ~ 14450 6300
+NoConn ~ 14450 6400
+NoConn ~ 14450 6500
 $EndSCHEMATC
