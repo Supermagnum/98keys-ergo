@@ -20,6 +20,9 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/right/pcb-flat-right.pdf
 Right side PCB:
 https://aisler.net/p/CHPGJUXC
 
+Layout:
+http://www.keyboard-layout-editor.com/#/gists/50db7ea7b0832342d4c734eb985ec16b
+
 How to wire up the connecting cable:
 https://github.com/Supermagnum/98keys-ergo/blob/master/cable.pdf
 
