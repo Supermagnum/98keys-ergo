@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name pcb-flatt-venstre-rescue)(type Legacy)(uri ${KIPRJMOD}/pcb-flatt-venstre-rescue.lib)(options "")(descr ""))
-  (lib (name pcb-flat-left-rescue)(type Legacy)(uri ${KIPRJMOD}/pcb-flat-left-rescue.lib)(options "")(descr ""))
-)
