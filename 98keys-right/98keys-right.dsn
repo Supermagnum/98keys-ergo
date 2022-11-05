@@ -21,8 +21,11 @@
       )
     )
     (boundary
-      (path pcb 0  291000 -254000  66000 -254000  66000 -23000  291000 -23000
-            291000 -254000)
+      (path pcb 0  134550 -24000  134570 -24123.6  134626 -24235.1  134715 -24323.6
+            134826 -24380.4  134950 -24400  138550 -24400  138674 -24380.4
+            138785 -24323.6  138874 -24235.1  138930 -24123.6  138950 -24000
+            138950 -23000  291250 -23000  291000 -252750  66500 -253000
+            67000 -23000  134550 -23000  134550 -24000)
     )
     (plane GND (polygon F.Cu 0  291000 -254000  66000 -253000  67000 -23000  291000 -23000
             291000 -254000))
@@ -37,287 +40,290 @@
     )
   )
   (placement
+    (component "Connector_Audio:Jack_3.5mm_CUI_SJ1-43514_Horizontal"
+      (place J1 136750.000000 -27500.000000 front 180.000000 (PN Conn_01x04_Male/I2C))
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-      (place D1 258380.005000 -85199.591000 front 0.000000 (PN 1N4148))
+      (place D1 258380.000000 -85199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::1"
-      (place D2 258600.005000 -116399.591000 front 0.000000 (PN 1N4148))
+      (place D2 258600.000000 -116399.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::2"
-      (place D3 258600.005000 -139999.591000 front 0.000000 (PN 1N4148))
+      (place D3 258600.000000 -139999.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::3"
-      (place D4 258600.005000 -163999.591000 front 0.000000 (PN 1N4148))
+      (place D4 258600.000000 -163999.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::4"
-      (place D5 258600.005000 -187799.591000 front 0.000000 (PN 1N4148))
+      (place D5 258600.000000 -187799.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::5"
-      (place D6 253800.005000 -211599.591000 front 0.000000 (PN 1N4148))
+      (place D6 253800.000000 -211599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::6"
-      (place D7 229580.005000 -85199.591000 front 0.000000 (PN 1N4148))
+      (place D7 229580.000000 -85199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::7"
-      (place D8 229600.005000 -116199.591000 front 0.000000 (PN 1N4148))
+      (place D8 229600.000000 -116199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::8"
-      (place D9 229600.005000 -140199.591000 front 0.000000 (PN 1N4148))
+      (place D9 229600.000000 -140199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::9"
-      (place D10 229400.005000 -163999.591000 front 0.000000 (PN 1N4148))
+      (place D10 229400.000000 -163999.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::10"
-      (place D11 229600.005000 -187599.591000 front 0.000000 (PN 1N4148))
+      (place D11 229600.000000 -187599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::11"
-      (place D12 229380.005000 -211399.591000 front 0.000000 (PN 1N4148))
+      (place D12 229380.000000 -211399.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::12"
-      (place D14 200980.005000 -84999.591000 front 0.000000 (PN 1N4148))
+      (place D14 200980.000000 -84999.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::13"
-      (place D15 206000.005000 -111599.591000 front 0.000000 (PN 1N4148))
+      (place D15 206000.000000 -111599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::14"
-      (place D16 206000.005000 -135199.591000 front 0.000000 (PN 1N4148))
+      (place D16 206000.000000 -135199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::15"
-      (place D17 205780.005000 -182799.591000 front 0.000000 (PN 1N4148))
+      (place D17 205780.000000 -182799.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::16"
-      (place D18 206000.005000 -159199.591000 front 0.000000 (PN 1N4148))
+      (place D18 206000.000000 -159199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::17"
-      (place D19 206000.005000 -206599.591000 front 0.000000 (PN 1N4148))
+      (place D19 206000.000000 -206599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::18"
-      (place D20 172800.005000 -85199.591000 front 0.000000 (PN 1N4148))
+      (place D20 172800.000000 -85199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::19"
-      (place D21 182400.005000 -108799.591000 front 0.000000 (PN 1N4148))
+      (place D21 182400.000000 -108799.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::20"
-      (place D22 182000.005000 -132799.591000 front 0.000000 (PN 1N4148))
+      (place D22 182000.000000 -132799.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::21"
-      (place D23 182000.005000 -156599.591000 front 0.000000 (PN 1N4148))
+      (place D23 182000.000000 -156599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::22"
-      (place D24 182200.005000 -180199.591000 front 0.000000 (PN 1N4148))
+      (place D24 182200.000000 -180199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::23"
-      (place D25 181800.005000 -204399.591000 front 0.000000 (PN 1N4148))
+      (place D25 181800.000000 -204399.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::24"
-      (place D26 143800.005000 -85199.591000 front 0.000000 (PN 1N4148))
+      (place D26 143800.000000 -85199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::25"
-      (place D27 158200.005000 -135199.591000 front 0.000000 (PN 1N4148))
+      (place D27 158200.000000 -135199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::26"
-      (place D28 158400.005000 -111599.591000 front 0.000000 (PN 1N4148))
+      (place D28 158400.000000 -111599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::27"
-      (place D29 158400.005000 -159199.591000 front 0.000000 (PN 1N4148))
+      (place D29 158400.000000 -159199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::28"
-      (place D30 158200.005000 -182799.591000 front 0.000000 (PN 1N4148))
+      (place D30 158200.000000 -182799.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::29"
-      (place D31 158600.005000 -206599.591000 front 0.000000 (PN 1N4148))
+      (place D31 158600.000000 -206599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::30"
-      (place D32 115600.005000 -85199.591000 front 0.000000 (PN 1N4148))
+      (place D32 115600.000000 -85199.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::31"
-      (place D33 134600.005000 -113599.591000 front 0.000000 (PN 1N4148))
+      (place D33 134600.000000 -113599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::32"
-      (place D34 134600.005000 -137599.591000 front 0.000000 (PN 1N4148))
+      (place D34 134600.000000 -137599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::33"
-      (place D35 134600.005000 -161399.591000 front 0.000000 (PN 1N4148))
+      (place D35 134600.000000 -161399.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::34"
-      (place D36 134200.005000 -184999.591000 front 0.000000 (PN 1N4148))
+      (place D36 134200.000000 -184999.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::35"
-      (place D37 86600.005000 -84999.591000 front 0.000000 (PN 1N4148))
+      (place D37 86600.000000 -84999.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::36"
-      (place D38 111000.005000 -113799.591000 front 0.000000 (PN 1N4148))
+      (place D38 111000.000000 -113799.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::37"
-      (place D39 110800.005000 -184999.591000 front 0.000000 (PN 1N4148))
+      (place D39 110800.000000 -184999.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::38"
-      (place D40 111000.005000 -137599.591000 front 0.000000 (PN 1N4148))
+      (place D40 111000.000000 -137599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::39"
-      (place D41 110800.005000 -161399.591000 front 0.000000 (PN 1N4148))
+      (place D41 110800.000000 -161399.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::40"
-      (place D42 86800.005000 -113599.591000 front 0.000000 (PN 1N4148))
+      (place D42 86800.000000 -113599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::41"
-      (place D43 87000.005000 -151599.591000 front 0.000000 (PN 1N4148))
+      (place D43 87000.000000 -151599.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::42"
-      (place D44 87000.005000 -184999.591000 front 0.000000 (PN 1N4148))
+      (place D44 87000.000000 -184999.600000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::43"
-      (place D45 78590.905000 -229204.591000 front 30.000000 (PN 1N4148))
+      (place D45 78590.900000 -229204.600000 front 30.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::44"
-      (place D46 98200.905000 -215309.591000 front 30.000000 (PN 1N4148))
+      (place D46 98200.900000 -215309.600000 front 30.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::45"
-      (place D47 109800.905000 -236109.591000 front 30.000000 (PN 1N4148))
+      (place D47 109800.900000 -236109.600000 front 30.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::46"
-      (place D48 120190.005000 -205394.591000 front 30.000000 (PN 1N4148))
+      (place D48 120190.000000 -205394.600000 front 30.000000 (PN 1N4148))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB
-      (place SW1 264740.005000 -69199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW1 264740.000000 -69199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB
-      (place SW2 264550.000000 -72925.000000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW2 264480.000000 -99940.000000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::1
-      (place SW3 264550.000000 -96725.000000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW3 264480.000000 -123740.000000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::2
-      (place SW4 264610.000000 -144405.000000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW4 264540.000000 -171420.000000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::3
-      (place SW5 264610.000000 -120605.000000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW5 264540.000000 -147620.000000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::1
-      (place SW6 260000.005000 -195599.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW6 260000.000000 -195599.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::2
-      (place SW7 236200.005000 -69199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW7 236200.000000 -69199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::3
-      (place SW8 236200.005000 -100199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW8 236200.000000 -100199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::4
-      (place SW9 236200.005000 -124199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW9 236200.000000 -124199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::5
-      (place SW10 236200.005000 -171799.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW10 236200.000000 -171799.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::6
-      (place SW11 236200.005000 -147999.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW11 236200.000000 -147999.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::7
-      (place SW12 236200.005000 -195599.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW12 236200.000000 -195599.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::8
-      (place SW13 207600.005000 -69199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW13 207600.000000 -69199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::9
-      (place SW14 212400.005000 -95599.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW14 212400.000000 -95599.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::10
-      (place SW15 212400.005000 -119399.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW15 212400.000000 -119399.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::11
-      (place SW16 212400.005000 -166999.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW16 212400.000000 -166999.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::12
-      (place SW17 212400.005000 -143199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW17 212400.000000 -143199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::13
-      (place SW18 212400.005000 -190799.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW18 212400.000000 -190799.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::14
-      (place SW19 179000.005000 -69199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW19 179000.000000 -69199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::15
-      (place SW20 188600.005000 -92999.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW20 188600.000000 -92999.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::16
-      (place SW21 188400.005000 -116799.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW21 188400.000000 -116799.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::17
-      (place SW22 188600.005000 -164399.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW22 188600.000000 -164399.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::18
-      (place SW23 188600.005000 -140799.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW23 188600.000000 -140799.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::19
-      (place SW24 188600.005000 -188399.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW24 188600.000000 -188399.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::20
-      (place SW25 150400.005000 -69199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW25 150400.000000 -69199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::21
-      (place SW26 164800.005000 -95599.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW26 164800.000000 -95599.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::22
-      (place SW27 164800.005000 -119399.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW27 164800.000000 -119399.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::23
-      (place SW28 164800.005000 -166999.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW28 164800.000000 -166999.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::24
-      (place SW29 164800.005000 -143199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW29 164800.000000 -143199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::25
-      (place SW30 164800.005000 -190799.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW30 164800.000000 -190799.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::26
-      (place SW31 122000.005000 -69199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW31 122000.000000 -69199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::27
-      (place SW32 141000.005000 -97799.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW32 141000.000000 -97799.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::28
-      (place SW33 141000.005000 -121599.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW33 141000.000000 -121599.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::29
-      (place SW34 140800.005000 -169199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW34 140800.000000 -169199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::30
-      (place SW35 141000.005000 -145599.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW35 141000.000000 -145599.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::31
-      (place SW36 93200.005000 -69199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW36 93200.000000 -69199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::32
-      (place SW37 117200.005000 -97799.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW37 117200.000000 -97799.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::33
-      (place SW38 117200.005000 -121599.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW38 117200.000000 -121599.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::34
-      (place SW39 117200.005000 -169199.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW39 117200.000000 -169199.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::35
-      (place SW40 117200.005000 -145399.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW40 117200.000000 -145399.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::36
-      (place SW41 93340.005000 -97719.591000 front 0.000000 (PN "MX-NO-LED"))
+      (place SW41 93340.000000 -97719.600000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::4
-      (place SW42 85800.005000 -133599.591000 front 90.000000 (PN "MX-NO-LED"))
+      (place SW42 85800.000000 -133599.600000 front 90.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::5
-      (place SW43 85600.005000 -166999.591000 front 90.000000 (PN "MX-NO-LED"))
+      (place SW43 85600.000000 -166999.600000 front 90.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::37
-      (place SW44 87159.705000 -230830.591000 front 30.000000 (PN "MX-NO-LED"))
+      (place SW44 87159.700000 -230830.600000 front 30.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::38
-      (place SW45 95859.705000 -198230.591000 front 30.000000 (PN "MX-NO-LED"))
+      (place SW45 95859.700000 -198230.600000 front 30.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::39
-      (place SW46 107659.705000 -219030.591000 front 30.000000 (PN "MX-NO-LED"))
+      (place SW46 107659.700000 -219030.600000 front 30.000000 (PN "MX-NO-LED"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::40
-      (place SW47 128359.705000 -207030.591000 front 30.000000 (PN "MX-NO-LED"))
+      (place SW47 128359.700000 -207030.600000 front 30.000000 (PN "MX-NO-LED"))
     )
     (component MountingHole:MountingHole_4.3mm_M4_DIN965_Pad
       (place H1 74110.000000 -30105.000000 front 0.000000 (PN MountingHole_Pad))
@@ -330,7 +336,7 @@
       (place H8 73610.000000 -246105.000000 front 0.000000 (PN MountingHole_Pad))
     )
     (component "Button_Switch_THT:Push_E-Switch_KS01Q01"
-      (place SW48 134450.000000 -47256.258000 front 0.000000 (PN "SW_Push/KS-01Q-01"))
+      (place SW48 134450.000000 -47256.300000 front 0.000000 (PN "SW_Push/KS-01Q-01"))
     )
     (component "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp"
       (place D50 102920.000000 -31270.000000 front 90.000000 (PN LED))
@@ -354,22 +360,81 @@
       (place R4 118160.000000 -32540.000000 front 90.000000 (PN 330))
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::4
-      (place R1 80000.000000 -68530.000000 front -90.000000 (PN 4.7K))
+      (place R1 127500.000000 -32750.000000 front 90.000000 (PN 4.7K))
     )
     (component "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp::2"
       (place D13 82600.000000 -31270.000000 front 90.000000 (PN LED))
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::5
-      (place R2 80000.000000 -82500.000000 front 90.000000 (PN 4.7K))
+      (place R2 145750.000000 -32580.000000 front 90.000000 (PN 4.7K))
     )
     (component "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp::3"
       (place D49 113080.000000 -31270.000000 front 90.000000 (PN LED))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
-      (place J1 73650.000000 -79960.000000 front 180.000000 (PN Conn_01x04_Male/I2C))
-    )
   )
   (library
+    (image "Connector_Audio:Jack_3.5mm_CUI_SJ1-43514_Horizontal"
+      (outline (path signal 120  -6000 -3300  -6000 9144))
+      (outline (path signal 120  6000 -3300  4500 -3300))
+      (outline (path signal 120  -3000 -6300  -3000 -4500))
+      (outline (path signal 120  4500 -4500  3000 -4500))
+      (outline (path signal 120  6000 9144  6000 -3300))
+      (outline (path signal 120  -6000 9144  6000 9144))
+      (outline (path signal 120  -4500 -4500  -4500 -3300))
+      (outline (path signal 120  3000 -6300  -3000 -6300))
+      (outline (path signal 120  2000 -6300  2000 -3300))
+      (outline (path signal 120  -4500 -3300  -6000 -3300))
+      (outline (path signal 120  -3000 -4500  -4500 -4500))
+      (outline (path signal 120  2000 -3300  -2000 -3300))
+      (outline (path signal 120  -2000 -3300  -2000 -6300))
+      (outline (path signal 120  4500 -3300  4500 -4500))
+      (outline (path signal 120  3000 -4500  3000 -6300))
+      (outline (path signal 120  -2200 -3500  -2200 -4500))
+      (outline (path signal 120  1800 -3100  -1800 -3100))
+      (outline (path signal 120  -2200 -4500  -6500 -4500))
+      (outline (path signal 120  2200 -4500  6500 -4500))
+      (outline (path signal 120  2200 -3500  2200 -4500))
+      (outline (path signal 0  -1860 -3900  -1842.42 -3857.58  -1800 -3840  -1712 -3828.42
+            -1630 -3794.45  -1559.58 -3740.42  -1505.55 -3670  -1471.58 -3588
+            -1460 -3500  -1442.42 -3457.58  -1400 -3440  -1357.57 -3457.58
+            -1340 -3500  -1355.67 -3619.06  -1401.62 -3730  -1474.73 -3825.27
+            -1570 -3898.38  -1680.94 -3944.33  -1800 -3960  -1842.42 -3942.43))
+      (outline (path signal 0  1442.43 -3457.57  1460 -3500  1471.59 -3588  1505.55 -3670
+            1559.58 -3740.42  1630 -3794.45  1712 -3828.41  1800 -3840  1842.43 -3857.57
+            1860 -3900  1842.43 -3942.43  1800 -3960  1680.94 -3944.33  1570 -3898.37
+            1474.73 -3825.27  1401.63 -3730  1355.67 -3619.06  1340 -3500
+            1357.57 -3457.57  1400 -3440))
+      (outline (path signal 50  -3250 -4750  -3250 -6550))
+      (outline (path signal 50  3250 -6550  3250 -4750))
+      (outline (path signal 50  6250 -3992  6250 9652))
+      (outline (path signal 50  3250 -4750  6250 -4750))
+      (outline (path signal 50  -6250 9652  -6250 -4750))
+      (outline (path signal 50  -6250 -4750  -3250 -4750))
+      (outline (path signal 50  6250 9652  -6250 9652))
+      (outline (path signal 50  6250 -4750  6250 -4500))
+      (outline (path signal 50  -3250 -6550  3250 -6550))
+      (outline (path signal 100  -6000 -3300  -6000 9144))
+      (outline (path signal 100  6000 -3300  6000 9144))
+      (outline (path signal 100  4500 -3300  6000 -3300))
+      (outline (path signal 100  -6000 9144  6000 9144))
+      (outline (path signal 100  -3000 -6300  3000 -6300))
+      (outline (path signal 100  -4500 -4500  -4500 -3300))
+      (outline (path signal 100  3000 -4500  3000 -6300))
+      (outline (path signal 100  4500 -4500  3000 -4500))
+      (outline (path signal 100  -4500 -3300  -6000 -3300))
+      (outline (path signal 100  4500 -4500  4500 -3300))
+      (outline (path signal 100  -3000 -4500  -3000 -6300))
+      (outline (path signal 100  -4500 -4500  -3000 -4500))
+      (pin Round[A]Pad_1200_um 1 -4500 0)
+      (pin Round[A]Pad_1200_um 2 3600 5000)
+      (pin Round[A]Pad_1200_um 3 -1600 8100)
+      (pin Round[A]Pad_1200_um 4 4500 0)
+      (pin Round[A]Pad_1200_um 5 1600 8100)
+      (keepout "" (circle F.Cu 1200 0 -1600))
+      (keepout "" (circle B.Cu 1200 0 -1600))
+      (keepout "" (circle F.Cu 1200 0 5000))
+      (keepout "" (circle B.Cu 1200 0 5000))
+    )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
       (outline (path signal 120  1040 0  1690 0))
       (outline (path signal 120  1690 1120  1690 -1120))
@@ -1619,30 +1684,30 @@
       (keepout "" (circle B.Cu 1700 -7620 -5080))
     )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB
-      (outline (path signal 120  4445 1905  4445 -12065))
-      (outline (path signal 120  -9525 1905  4445 1905))
-      (outline (path signal 120  4445 -12065  -9525 -12065))
-      (outline (path signal 120  -9525 -12065  -9525 1905))
-      (outline (path signal 150  -16827.5 4445  11747.5 4445))
-      (outline (path signal 150  -16827.5 -14605  -16827.5 4445))
-      (outline (path signal 150  11747.5 -14605  -16827.5 -14605))
-      (outline (path signal 150  11747.5 4445  11747.5 -14605))
-      (outline (path signal 50  4060 -11680  -9140 -11680))
-      (outline (path signal 50  -9140 -11680  -9140 1520))
-      (outline (path signal 50  -9140 1520  4060 1520))
-      (outline (path signal 50  4060 1520  4060 -11680))
-      (outline (path signal 100  -8890 -11430  -8890 1270))
-      (outline (path signal 100  -8890 1270  3810 1270))
-      (outline (path signal 100  3810 1270  3810 -11430))
       (outline (path signal 100  3810 -11430  -8890 -11430))
-      (pin Round[A]Pad_2200_um 1 0 0)
+      (outline (path signal 100  3810 1270  3810 -11430))
+      (outline (path signal 100  -8890 1270  3810 1270))
+      (outline (path signal 100  -8890 -11430  -8890 1270))
+      (outline (path signal 50  4060 1520  4060 -11680))
+      (outline (path signal 50  -9140 1520  4060 1520))
+      (outline (path signal 50  -9140 -11680  -9140 1520))
+      (outline (path signal 50  4060 -11680  -9140 -11680))
+      (outline (path signal 150  11747.5 4445  11747.5 -14605))
+      (outline (path signal 150  11747.5 -14605  -16827.5 -14605))
+      (outline (path signal 150  -16827.5 -14605  -16827.5 4445))
+      (outline (path signal 150  -16827.5 4445  11747.5 4445))
+      (outline (path signal 120  -9525 -12065  -9525 1905))
+      (outline (path signal 120  4445 -12065  -9525 -12065))
+      (outline (path signal 120  -9525 1905  4445 1905))
+      (outline (path signal 120  4445 1905  4445 -12065))
       (pin Round[A]Pad_2200_um 2 -6350 -2540)
-      (keepout "" (circle F.Cu 1700 -7620 -5080))
-      (keepout "" (circle B.Cu 1700 -7620 -5080))
-      (keepout "" (circle F.Cu 4000 -2540 -5080))
-      (keepout "" (circle B.Cu 4000 -2540 -5080))
+      (pin Round[A]Pad_2200_um 1 0 0)
       (keepout "" (circle F.Cu 1700 2540 -5080))
       (keepout "" (circle B.Cu 1700 2540 -5080))
+      (keepout "" (circle F.Cu 4000 -2540 -5080))
+      (keepout "" (circle B.Cu 4000 -2540 -5080))
+      (keepout "" (circle F.Cu 1700 -7620 -5080))
+      (keepout "" (circle B.Cu 1700 -7620 -5080))
     )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::1
       (outline (path signal 120  4445 -12065  -9525 -12065))
@@ -3329,26 +3394,10 @@
       (pin Rect[A]Pad_1500x1500_um 1 0 0)
       (pin Oval[A]Pad_1500x1500_um 2 2540 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 120  1330 -1270  1330 -8950))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  -1330 -1270  -1330 -8950))
-      (outline (path signal 120  -1330 -8950  1330 -8950))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (outline (path signal 50  -1800 1800  -1800 -9400))
-      (outline (path signal 50  1800 -9400  1800 1800))
-      (outline (path signal 50  -1800 -9400  1800 -9400))
-      (outline (path signal 100  -1270 -8890  -1270 635))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  1270 1270  1270 -8890))
-      (outline (path signal 100  1270 -8890  -1270 -8890))
-      (pin Rect[A]Pad_1700x1700_um 1 0 0)
-      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
-      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
-      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+    (padstack Round[A]Pad_1200_um
+      (shape (circle F.Cu 1200))
+      (shape (circle B.Cu 1200))
+      (attach off)
     )
     (padstack Round[A]Pad_1400_um
       (shape (circle F.Cu 1400))
@@ -3567,9 +3616,9 @@
       (pins D48-2 SW47-2)
     )
     (net GND
-      (pins H1-1 H2-1 H3-1 H4-1 H5-1 H6-1 H7-1 H8-1 SW48-2 R6-2 U1-3 U1-3@1 U1-8 U1-8@1
-        U1-13 U1-13@1 U1-18 U1-18@1 U1-23 U1-23@1 U1-28 U1-28@1 U1-33 U1-33@1 U1-38
-        U1-38@1 R3-2 R5-2 R4-2 J1-1)
+      (pins J1-1 H1-1 H2-1 H3-1 H4-1 H5-1 H6-1 H7-1 H8-1 SW48-2 R6-2 U1-3 U1-3@1 U1-8
+        U1-8@1 U1-13 U1-13@1 U1-18 U1-18@1 U1-23 U1-23@1 U1-28 U1-28@1 U1-33 U1-33@1
+        U1-38 U1-38@1 R3-2 R5-2 R4-2)
     )
     (net "Arrow-Right"
       (pins D46-1 D48-1 U1-26 U1-26@1)
@@ -3641,13 +3690,13 @@
       (pins D51-2 U1-21 U1-21@1)
     )
     (net scl
-      (pins U1-2 U1-2@1 R1-1 J1-3)
+      (pins J1-3 U1-2 U1-2@1 R1-1)
     )
     (net sda
-      (pins U1-1 U1-1@1 R2-1 J1-2)
+      (pins J1-2 U1-1 U1-1@1 R2-1)
     )
     (net VCC
-      (pins U1-40 U1-40@1 R1-2 R2-2 J1-4)
+      (pins J1-4 U1-40 U1-40@1 R1-2 R2-2)
     )
     (net "Net-(SW48-Pad1)"
       (pins SW48-1 U1-30 U1-30@1)
@@ -3717,6 +3766,5 @@
     )
   )
   (wiring
-    (via "Via[0-1]_1400:400_um"  110585 -32130 (net GND)(type fix))
   )
 )
