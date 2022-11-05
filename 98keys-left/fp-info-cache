@@ -1,4 +1,4 @@
-20607173823366697
+20607174226290446
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6503,13 +6503,6 @@ TRS audio jack stereo horizontal
 3
 3
 Connector_Audio
-Jack_3.5mm_CUI_SJ1-3524N_Horizontal
-TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf
-TRS audio jack stereo horizontal
-0
-4
-4
-Connector_Audio
 Jack_3.5mm_CUI_SJ1-3525N_Horizontal
 TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf
 TRS audio jack stereo horizontal
@@ -6541,6 +6534,13 @@ Connector_Audio
 Jack_3.5mm_CUI_SJ1-3535NG_Horizontal_CircularHoles
 TRS 3.5mm, horizontal, through-hole, with switch, circular holes, https://www.cui.com/product/resource/sj1-353xng.pdf
 TRS audio jack stereo horizontal circular
+0
+5
+5
+Connector_Audio
+Jack_3.5mm_CUI_SJ1-43514_Horizontal
+TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/sj-4351x.pdf
+TRS audio jack stereo horizontal
 0
 5
 5

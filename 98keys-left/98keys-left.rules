@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1)
+    (start_pass_no 7)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -70,9 +70,9 @@
     "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)" "Net-(D32-Pad2)"
     "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)" "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)" "Net-(D39-Pad2)" "Net-(D40-Pad2)"
     "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)" "Net-(D44-Pad2)" "Net-(D45-Pad2)" "Net-(D46-Pad2)" "Net-(D47-Pad2)" "Net-(D48-Pad2)"
-    "SDA I2C0" "SDC I2C0" VCC "Net-(SW48-Pad1)" "unconnected-(U1-Pad27)" PWM1 "Net-(D13-Pad1)" "Net-(D49-Pad1)"
-    PWM2 "Net-(D50-Pad1)" PWM3 "unconnected-(U1-Pad29)" "Net-(D51-Pad1)" PWM4 "unconnected-(U1-Pad32)" "unconnected-(U1-Pad34)"
-    "unconnected-(U1-Pad35)" "unconnected-(U1-Pad36)" "unconnected-(U1-Pad37)" "unconnected-(U1-Pad39)" "unconnected-(U1-Pad41)" "unconnected-(U1-Pad42)" "Arrow-Left" "unconnected-(U1-Pad43)"
+    "SDA I2C0" VCC "Net-(SW48-Pad1)" "unconnected-(U1-Pad27)" PWM1 "Net-(D13-Pad1)" "Net-(D49-Pad1)" PWM2
+    "Net-(D50-Pad1)" PWM3 "unconnected-(U1-Pad29)" "Net-(D51-Pad1)" PWM4 "unconnected-(U1-Pad32)" "unconnected-(U1-Pad34)" "unconnected-(U1-Pad35)"
+    "unconnected-(U1-Pad36)" "unconnected-(U1-Pad37)" "unconnected-(U1-Pad39)" "unconnected-(U1-Pad41)" "unconnected-(U1-Pad42)" "Arrow-Left" "unconnected-(U1-Pad43)" "SCL I2C0"
     (clearance_class default)
     (via_rule default)
     (rule

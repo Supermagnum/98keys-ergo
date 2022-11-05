@@ -4417,7 +4417,7 @@
     (uuid b1a2f4f8-5ce5-4e86-9c1b-c2a387c5d74f)
     (property "Reference" "J1" (id 0) (at 426.085 41.91 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 426.085 44.45 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 425.45 49.53 0)
+    (property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-43514_Horizontal" (id 2) (at 425.45 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 425.45 49.53 0)
@@ -4646,7 +4646,7 @@
       (reference "H8") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad")
     )
     (path "/b1a2f4f8-5ce5-4e86-9c1b-c2a387c5d74f"
-      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ1-43514_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005f7322e9"
       (reference "R1") (unit 1) (value "330") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
