@@ -1,6 +1,6 @@
 # 98keys
 
-![98keys](https://github.com/Supermagnum/98keys-ergo/blob/master/layout.png!)
+![98keys](https://github.com/Supermagnum/98keys-ergo/blob/master/layout.png)
 
 *A 98 key ergonomic,split keyboard. Its powered by a Raspberry pico.
 
