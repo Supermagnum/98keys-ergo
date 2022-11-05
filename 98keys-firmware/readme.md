@@ -1,8 +1,10 @@
 # 98keys
 
-![98keys](imgur.com image replace me!)
+![98keys](https://github.com/Supermagnum/98keys-ergo/blob/master/layout.png!)
 
-*A short description of the keyboard/project*
+*A 98 key ergonomic,split keyboard. Its powered by a Raspberry pico.
+
+The keymap has not been made yet.*
 
 * Keyboard Maintainer: [Supermagnum](https://github.com/Supermagnum)
 * Hardware Supported: *The PCBs, controllers supported*
