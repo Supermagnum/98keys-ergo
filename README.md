@@ -1,8 +1,9 @@
 # 98keys-ergo
 A 98 key ergonomic,split keyboard.
+Its powered by a Raspberry pico.
 
-The json files from keyboard layout editor needs to be edited to go in 
-98keys-ergo/98keys-firmware/info.json as matrix information.
+The keymap has not been made yet. 
+
 
 
 Cherry MX switches should fit the holes and the PCB'S.
