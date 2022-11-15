@@ -1,6 +1,6 @@
 # 98keys-ergo
 A 98 key ergonomic,split keyboard.
-Its powered by a Raspberry pico.
+Its powered by 2X Raspberry pico.
 
 I have attempted to make a keymap, any help correcting this and other errors is extremely appreticated!
 
