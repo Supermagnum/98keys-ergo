@@ -16,6 +16,14 @@ Layout:
 https://github.com/Supermagnum/98keys-ergo/blob/master/layout.png
 The L1/L2 button is to change from  Norwegian QWERTY to Norwegian Dvorak.
 
+Json file for VIAL can be downloaded from:
+That includes left and right side,clear the legends before downloading. 
+http://www.keyboard-layout-editor.com/#/gists/2fea0143064790fed378761bfa7f5600
+
+Vial:
+https://get.vial.today/docs/porting-to-via.html
+https://get.vial.today/
+
 
 PWM1 to PWM 4 controls LED's based by the active layer, and also caps lock and scroll lock active.
 Those can be found here:
