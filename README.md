@@ -18,7 +18,7 @@ The L1/L2 button is to change from  Norwegian QWERTY to Norwegian Dvorak.
 
 Json file for VIAL can be downloaded from:
 That includes left and right side,clear the legends before downloading. 
-http://www.keyboard-layout-editor.com/#/gists/2fea0143064790fed378761bfa7f5600
+http://www.keyboard-layout-editor.com/#/gists/50db7ea7b0832342d4c734eb985ec16b
 
 Vial:
 https://get.vial.today/docs/porting-to-via.html
