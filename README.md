@@ -20,6 +20,10 @@ Json file for VIAL can be downloaded from:
 That includes left and right side,clear the legends before downloading. 
 http://www.keyboard-layout-editor.com/#/gists/50db7ea7b0832342d4c734eb985ec16b
 
+The necessary cover plates can be created with this tool:
+http://builder.swillkb.com/
+
+
 Vial:
 https://get.vial.today/docs/porting-to-via.html
 https://get.vial.today/
