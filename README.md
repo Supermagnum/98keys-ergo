@@ -25,6 +25,10 @@ http://builder.swillkb.com/
 alternatively:
 https://plate.keeb.io/
 
+Split pcb:
+https://github.com/Supermagnum/98keys-ergo/tree/master/98keys-split-pcb
+https://github.com/Supermagnum/98keys-ergo/blob/master/98keys-split-pcb/98keys-split-pcb.jpg
+
 
 Vial:
 https://get.vial.today/docs/porting-to-via.html
