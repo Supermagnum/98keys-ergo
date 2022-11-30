@@ -23,9 +23,7 @@ Layout:
 https://github.com/Supermagnum/98keys-ergo/blob/master/layout.png
 The L1/L2 button is to change from  Norwegian QWERTY to Norwegian Dvorak.
 
-Json file for VIAL can be downloaded from:
-That includes left and right side,clear the legends before downloading. 
-http://www.keyboard-layout-editor.com/#/gists/50db7ea7b0832342d4c734eb985ec16b
+Json file for VIAL is in the firmware folder.
 
 The necessary cover plates can be created with this tool:
 http://builder.swillkb.com/
@@ -39,7 +37,9 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/98keys-split-pcb/98keys-s
 
 
 Vial:
+
 https://get.vial.today/docs/porting-to-via.html
+
 https://get.vial.today/
 
 
@@ -56,4 +56,12 @@ https://aisler.net/p/OPFSMZDA
 
 License:
 https://github.com/Supermagnum/98keys-ergo/blob/master/LICENSE
+
+Todo:
+Move the TRRS jacks closer to the controllers.
+Look for a another reset switch as it looks like it's out of production. 
+Maybe add a supporting point in the middle of the Pcb's. 
+Make mechanical plates and frames in Freecad.
+Add a usb device id so the PCB will be recognised by Linux and others.
+
 
