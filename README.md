@@ -2,7 +2,10 @@
 A 98 key ergonomic,split keyboard.
 Its powered by 2X Raspberry pico and linked with two TRRS jacks.
 
-I have attempted to make a keymap, any help correcting this and other errors is extremely appreticated!
+
+I have attempted to make a keymap, any help correcting this and other firmware programming errors is extremely appreticated!
+
+
 
 The keys without any letters/numbers:
 https://github.com/Supermagnum/98keys-ergo/blob/master/98keys-firmware/6x9/keymap.c
