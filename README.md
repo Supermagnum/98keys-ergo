@@ -3,7 +3,11 @@ A 98 key ergonomic,split keyboard.
 Its powered by 2X Raspberry pico and linked with two TRRS jacks.
 
 
+
+
 I have attempted to make a keymap, any help correcting this and other firmware programming errors is extremely appreticated!
+
+
 
 
 
