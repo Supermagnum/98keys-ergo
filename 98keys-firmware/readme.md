@@ -10,6 +10,7 @@ The keymap has not been made yet.*
 * Hardware Supported: https://github.com/Supermagnum/98keys-ergo
 * Hardware Availability: https://github.com/Supermagnum/98keys-ergo
 
+L1/L2 controls what layer is active, QWERTY or DVORAK.
 PWM1 to PWM 4 controls LED's based by the active layer, and also caps lock and scroll lock active. Those can be found here:https://github.com/Supermagnum/98keys-ergo/blob/master/98keys-split-pcb/schema/98keys-split-pcb.pdf The right side has identical outputs for PWM.
 
 Make example for this keyboard (after setting up your build environment):
