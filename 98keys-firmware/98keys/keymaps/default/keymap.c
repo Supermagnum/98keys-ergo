@@ -18,16 +18,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_CAPS, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,                        /**/                    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_NUHS, KC_ENT,
         KC_LSFT, KC_NUBS, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_DEL              /**/           KC_END,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_PGUP, KC_RSFT,
         KC_LCTL, KC_LGUI, KC_LALT, KC_NO,   KC_NO,                                         /**/                                      KC_NO,   KC_PGDN, KC_RGUI, FN,      KC_RCTL,
-                                                                       KC_UP,              /**/           KC_NO,
-                                                              KC_LEFT, KC_DOWN, KC_RIGHT,  /**/  KC_NO,   KC_NO,   KC_NO
+                                                                       KC_NO,              /**/           KC_UP,
+                                                              KC_NO,   KC_NO,   KC_NO,     /**/  KC_LEFT, KC_DOWN, KC_RIGHT
     ),
     [_NORWEGIAN] = LAYOUT_6x9(
-        KC_ESC, KC_F1,  KC_F2,  KC_F3,  KC_F4,  KC_F5,  KC_F6,                         KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, KC_NO,
-        NO_PIPE, NO_1, NO_2, NO_3, NO_4, NO_5, NO_6, NO_7,                         NO_8, NO_9, NO_0, NO_PLUS, NO_BSLS,KC_SCRL, KC_PAUS, KC_PSCR
-        KC_TAB, NO_Q, NO_W, NO_E, NO_R, NO-T, NO_Y, KC_INS,                          KC_HOME, NO_U, NO_I, NO_O, NO_P, NO_ARNG, KC_RBRC, KC_BSPC
-        KC_CAPS, NO_A, NO_S, NO_D, NO_D, NO_G, NO_H, KC_NO                             KC_NO, KC_J, KC_K, KC_L, NO_OSTR, NO_AE,NO_QUOT,KC_ENT
-        KC_LSFT, NO_LABK, NO_Z, NO_X, NO_C, NO_V, NO_B, KC_DEL                   KC_END, NO_N, NO_M,NO_COMM, NO_DOT, NO_MINS, KC_PGUP, KC_RSFT
-        KC_LCTL, KC_LGUI, KC_LALT, KC_NO,KC_NO, KC_NO                                                                       KC_UP, KC_NO,KC_RALT, KC_RGUI,KC_PGDN, KC_RCTL
-        KC_NO, KC_ NO, KC_NO                                                                                          KC_LEFT, KC_DOWN, KC_RIGHT
+        KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,                       /**/                    KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_NO,
+        NO_PIPE, NO_1,    NO_2,    NO_3,    NO_4,    NO_5,    NO_6,    NO_7,               /**/           NO_8,    NO_9,    NO_0,    NO_PLUS, NO_BSLS, KC_SCRL, KC_PAUS, KC_PSCR,
+        KC_TAB,  NO_Q,    NO_W,    NO_E,    NO_R,    NO_T,    NO_Y,    KC_INS,             /**/           KC_HOME, NO_U,    NO_I,    NO_O,    NO_P,    NO_ARNG, KC_RBRC, KC_BSPC,
+        KC_CAPS, NO_A,    NO_S,    NO_D,    NO_D,    NO_G,    NO_H,                        /**/                    KC_J,    KC_K,    KC_L,    NO_OSTR, NO_AE,   NO_QUOT, KC_ENT,
+        KC_LSFT, NO_LABK, NO_Z,    NO_X,    NO_C,    NO_V,    NO_B,    KC_DEL              /**/           KC_END,  NO_N,    NO_M,    NO_COMM, NO_DOT,  NO_MINS, KC_PGUP, KC_RSFT,
+        KC_LCTL, KC_LGUI, KC_LALT, KC_NO,   KC_NO,                                         /**/                                      KC_NO,   KC_RALT, KC_RGUI, KC_PGDN, KC_RCTL,
+                                                                       KC_NO,              /**/           KC_UP,
+                                                              KC_NO,   KC_NO,   KC_NO      /**/  KC_LEFT, KC_DOWN, KC_RIGHT
     )
-}
+};
