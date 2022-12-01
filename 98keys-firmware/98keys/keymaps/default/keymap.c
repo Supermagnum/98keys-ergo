@@ -1,3 +1,4 @@
+#include QMK_KEYBOARD_H
 
 #include "98keys.h"
 
