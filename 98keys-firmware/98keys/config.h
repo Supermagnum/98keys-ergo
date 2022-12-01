@@ -23,6 +23,6 @@
 #define USE_I2C
 #define SPLIT_LED_STATE_ENABLE
 #define DEBOUNCE 5
-/SDA pin is GPIO0 , SLC pin is GPIO1
+//SDA pin is GPIO0 , SCL pin is GPIO1
 #define I2C1_SCL_PIN GPIO1
 #define I2C1_SDA_PIN GPIO0
