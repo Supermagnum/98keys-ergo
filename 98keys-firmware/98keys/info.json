@@ -13,8 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GPIO2", "GPIO3", "GPIO10", "GPIO11" , "GPIO12" , "GPIO13" , "GPIO14" , "GPIO15" , "GPIO20" ]
-        "rows": ["GPIO4", "GPIO5", "GPIO6", "GPIO7" , "GPIO8" , "GPIO9"]
+        "cols": ["GP2", "GP3", "GP10", "GP11" , "GP12" , "GP13" , "GP14" , "GP15" , "GP20" ],
+        "rows": ["GP4", "GP5", "GP6", "GP7" , "GP8" , "GP9"]
     },
     "processor": "RP2040",
     "url": "https://github.com/Supermagnum/98keys-ergo",
@@ -55,19 +55,19 @@
                 { "matrix": [3, 0], "x": 0, "y": 3 },
                 { "matrix": [3, 1], "x": 1, "y": 3 },
                 { "matrix": [3, 2], "x": 2, "y": 3 },
-                { "matrix": [3, 3], "x": 3, "y": 3 }
-                { "matrix": [3, 4], "x": 4, "y": 3 }
-                { "matrix": [3, 5], "x": 5, "y": 3 }
-                { "matrix": [3, 6], "x": 6, "y": 3 }
-                { "matrix": [3, 7], "x": 7, "y": 3 }
-                { "matrix": [4, 0], "x": 0, "y": 4 }
-                { "matrix": [4, 1], "x": 1, "y": 4 }
-                { "matrix": [4, 2], "x": 2, "y": 4 }
-                { "matrix": [4, 3], "x": 3, "y": 4 }
-                { "matrix": [4, 4], "x": 4, "y": 4 }
-                { "matrix": [4, 5], "x": 5, "y": 4 }
-                { "matrix": [4, 6], "x": 6, "y": 4 }
-                { "matrix": [4, 7], "x": 7, "y": 4 }
+                { "matrix": [3, 3], "x": 3, "y": 3 },
+                { "matrix": [3, 4], "x": 4, "y": 3 },
+                { "matrix": [3, 5], "x": 5, "y": 3 },
+                { "matrix": [3, 6], "x": 6, "y": 3 },
+                { "matrix": [3, 7], "x": 7, "y": 3 },
+                { "matrix": [4, 0], "x": 0, "y": 4 },
+                { "matrix": [4, 1], "x": 1, "y": 4 },
+                { "matrix": [4, 2], "x": 2, "y": 4 },
+                { "matrix": [4, 3], "x": 3, "y": 4 },
+                { "matrix": [4, 4], "x": 4, "y": 4 },
+                { "matrix": [4, 5], "x": 5, "y": 4 },
+                { "matrix": [4, 6], "x": 6, "y": 4 },
+                { "matrix": [4, 7], "x": 7, "y": 4 },
 
             ]
         }
