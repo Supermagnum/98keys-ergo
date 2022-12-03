@@ -31,8 +31,8 @@
 
 
 #LED_PIN_ON_STATE 	1 	//The state of the indicator pins when the LED is "on" - 1 for high, 0 for low
-
-
+#define LED1_PIN GP18  // these should probably go in config.h
+#define LED2_PIN GP19
 
 #define DEBOUNCE 5
 
