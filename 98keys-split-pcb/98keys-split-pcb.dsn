@@ -39,10 +39,10 @@
             308800 -263000))
     (via "Via[0-1]_800:400_um")
     (rule
-      (width 1250)
-      (clearance 200.1)
-      (clearance 200.1 (type default_smd))
-      (clearance 50 (type smd_smd))
+      (width 1200)
+      (clearance 250.1)
+      (clearance 250.1 (type default_smd))
+      (clearance 62.5 (type smd_smd))
     )
   )
   (placement
@@ -7128,8 +7128,8 @@
         (use_via Via[0-1]_800:400_um)
       )
       (rule
-        (width 1250)
-        (clearance 200.1)
+        (width 1200)
+        (clearance 250.1)
       )
     )
   )

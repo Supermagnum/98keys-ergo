@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 222)
+    (start_pass_no 4)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -26,8 +26,8 @@
     )
   )
   (rule
-    (width 1250.0)
-    (clear 200.0)
+    (width 1240.0)
+    (clear 250.0)
     (clear 625.0 (type smd_to_turn_gap))
   )
   (padstack "Via[0-1]_800:400_um"
@@ -77,7 +77,7 @@
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 1250.0)
+      (width 1240.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
@@ -87,7 +87,7 @@
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
-      (width 1250.0)
+      (width 1240.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
