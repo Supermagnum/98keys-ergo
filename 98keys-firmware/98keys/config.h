@@ -26,6 +26,12 @@
 
 #define SPLIT_LED_STATE_ENABLE      // Sync lock LED status between halves
 
+#LED_CAPS_LOCK_PIN 	GP16 	//The pin that controls the Caps Lock LED
+#LED_SCROLL_LOCK_PIN 	GP17 	//The pin that controls the Scroll Lock LED
+
+
+#LED_PIN_ON_STATE 	1 	//The state of the indicator pins when the LED is "on" - 1 for high, 0 for low
+
 
 
 #define DEBOUNCE 5
