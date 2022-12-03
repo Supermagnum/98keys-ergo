@@ -2,7 +2,7 @@
 
 ![98keys](https://github.com/Supermagnum/98keys-ergo/blob/master/layout.png)
 
-*A 98 key ergonomic,split keyboard. Its powered by a Raspberry pico.
+*A 98 key ergonomic,split keyboard. Its powered by a two Raspberry pico.
 
 
 * Keyboard Maintainer: [Supermagnum](https://github.com/Supermagnum)
