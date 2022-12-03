@@ -33,3 +33,22 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                               KC_NO,   KC_NO,   KC_NO,     /**/  KC_LEFT, KC_DOWN, KC_RIGHT
     )
 };
+
+//keymap.c
+layer_state_t layer_state_set_user(layer_state_t state) {
+  switch(get_highest_layer(state)) {
+    case _QWERTY:
+      writePinHigh(LED1_PIN);
+      writePinLow(LED2_PIN);
+      break;
+    case _NORWEGIAN:
+      writePinHigh(LED2_PIN);
+      writePinLow(LED1_PIN);
+      break;
+    default:
+      writePinLow(LED1_PIN);
+      writePinLow(LED2_PIN);
+      break;
+  }
+  return state;
+}
