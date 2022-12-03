@@ -58,10 +58,11 @@ License:
 https://github.com/Supermagnum/98keys-ergo/blob/master/LICENSE
 
 Todo:
-Move the TRRS jacks closer to the controllers.
-Look for a another reset switch as it looks like it's out of production. 
+
 Maybe add a supporting point in the middle of the Pcb's. 
+
 Make mechanical plates and frames in Freecad.
+
 Add a usb device id so the PCB will be recognised by Linux and others.
 
 
