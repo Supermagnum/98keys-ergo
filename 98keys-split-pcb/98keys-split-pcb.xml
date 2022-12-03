@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/mnt/b955457f-512b-4f44-a0f7-8e5f2b78aba2/kicad/98keys/98keys-split-pcb/98keys-split-pcb.kicad_sch</source>
-    <date>ma. 28. nov. 2022 kl. 11.39 +0100</date>
+    <source>/home/haaken/98keys-ergo.git/trunk/98keys-split-pcb/98keys-split-pcb.kicad_sch</source>
+    <date>lø. 03. des. 2022 kl. 18.18 +0100</date>
     <tool>Eeschema 6.0.9-8da3e8f707~117~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1746,8 +1746,8 @@
       <tstamps>00000000-0000-0000-0000-00005f4200b8</tstamps>
     </comp>
     <comp ref="SW48">
-      <value>SW_Push/KS-01Q-01</value>
-      <footprint>Button_Switch_THT:Push_E-Switch_KS01Q01</footprint>
+      <value>SW_Push</value>
+      <footprint>switch:switch_P5.08mm</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="98keys-split-pcb.kicad_sch"/>
@@ -1756,7 +1756,7 @@
     </comp>
     <comp ref="SW49">
       <value>SW_Push</value>
-      <footprint>Button_Switch_THT:Push_E-Switch_KS01Q01</footprint>
+      <footprint>switch:switch_P5.08mm</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="98keys-split-pcb.kicad_sch"/>

@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 4)
+    (start_pass_no 7)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -73,7 +73,7 @@
     "unconnected-(U1-Pad31)" "unconnected-(U1-Pad32)" "unconnected-(U1-Pad34)" "unconnected-(U1-Pad35)" "unconnected-(U1-Pad36)" "unconnected-(U1-Pad37)" "unconnected-(U1-Pad39)" "unconnected-(U1-Pad41)"
     "unconnected-(U1-Pad42)" "unconnected-(U1-Pad43)" "unconnected-(U2-Pad27)" "unconnected-(U2-Pad29)" "unconnected-(U2-Pad32)" "unconnected-(U2-Pad34)" "unconnected-(U2-Pad35)" "unconnected-(U2-Pad36)"
     "unconnected-(U2-Pad37)" "unconnected-(U2-Pad39)" "unconnected-(U2-Pad41)" "unconnected-(U2-Pad42)" "unconnected-(U2-Pad43)" ROW1R ROW2R ROW3R
-    ROW5R ROW4R ROW6R VCCL "Net-(U1-Pad30)"
+    ROW5R ROW4R ROW6R VCCL /RUN
     (clearance_class default)
     (via_rule default)
     (rule

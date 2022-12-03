@@ -233,8 +233,8 @@
       (place SW87 142540.000000 -101720.000000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component switch:switch_P5.08mm
-      (place SW48 393800.000000 -51300.000000 front 0.000000 (PN SW_Push))
-      (place SW49 228900.000000 -51000.000000 front 180.000000 (PN SW_Push))
+      (place SW48 393460.000000 -53000.000000 front 0.000000 (PN SW_Push))
+      (place SW49 229000.000000 -53000.000000 front 180.000000 (PN SW_Push))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::24"
       (place D98 108000.000000 -165000.000000 front 0.000000 (PN 1N4148))
@@ -381,7 +381,7 @@
       (place SW56 261440.000000 -146820.000000 front 0.000000 (PN "MX-NO-LED"))
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::6
-      (place R6 508000.000000 -55000.000000 front 0.000000 (PN 330))
+      (place R6 509460.000000 -54000.000000 front 0.000000 (PN 330))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::47"
       (place D65 256000.000000 -186000.000000 front 0.000000 (PN 1N4148))
@@ -459,7 +459,7 @@
       (place D55 109900.000000 -50700.000000 front 0.000000 (PN "LTL-4233 "))
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::8
-      (place R2 456000.000000 -55000.000000 front 180.000000 (PN 330))
+      (place R2 456000.000000 -54000.000000 front 180.000000 (PN 330))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::60"
       (place D67 246380.000000 -203000.000000 front 0.000000 (PN 1N4148))
@@ -7120,7 +7120,7 @@
     (net VCCL
       (pins R11-2 R9-2 U2-40 U2-40@1 J2-4)
     )
-    (net "Net-(U1-Pad30)"
+    (net /RUN
       (pins SW48-1 U1-30 U1-30@1)
     )
     (class kicad_default
