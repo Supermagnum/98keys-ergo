@@ -52,3 +52,12 @@ layer_state_t layer_state_set_user(layer_state_t state) {
   }
   return state;
 }
+
+// called automatically any time there is a lock LED change
+bool led_update_user(led_t led_state) {
+  // turn CAPS_LOCK_PIN on if caps lock is active, otherwise off
+  writePin(CAPS_LOCK_PIN, led_state.caps_lock);
+
+  // turn SCRL_LOCK_PIN on if scroll lock is active, otherwise off
+  writePin(SCRL_LOCK_PIN, led_state.scroll_lock);
+}
