@@ -35,3 +35,4 @@
 //SDA pin is GPIO0 , SCL pin is GPIO1
 #define I2C1_SCL_PIN GP1
 #define I2C1_SDA_PIN GP0
+/* to set serial comm, #define SERIAL_USART_TX_PIN GP0 // USART TX pin #define SERIAL_USART_RX_PIN GP1 // USART RX pin*/
