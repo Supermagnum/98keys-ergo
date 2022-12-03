@@ -7,4 +7,4 @@ BOARD = GENERIC_RP_RP2040
 
 
 SPLIT_KEYBOARD = yes
-//*#SERIAL_DRIVER=vendor // enable for serial comm. Also look in the config.h file*
+//*SERIAL_DRIVER=vendor // enable for serial comm. Also look in the config.h file*
