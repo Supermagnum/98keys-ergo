@@ -35,7 +35,7 @@ The right side has identical outputs for PWM.
 
 Cherry MX switches should fit the PCB'S.
 
-Link to aisler:
+Link to aisler ( file is outdated, will be fixed soon. Don't use rhis link until then.)
 https://aisler.net/p/OPFSMZDA
 
 
