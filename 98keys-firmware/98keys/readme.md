@@ -4,7 +4,6 @@
 
 *A 98 key ergonomic,split keyboard. Its powered by a Raspberry pico.
 
-The keymap has not been made yet.*
 
 * Keyboard Maintainer: [Supermagnum](https://github.com/Supermagnum)
 * Hardware Supported: https://github.com/Supermagnum/98keys-ergo
