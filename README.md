@@ -10,10 +10,9 @@ The L1/L2 button is to change from  Norwegian QWERTY to Norwegian Dvorak.
 
 Json file for VIAL is in the firmware folder.
 
-The necessary cover plates can be created with this tool:
-http://builder.swillkb.com/
-alternatively:
-https://plate.keeb.io/
+All pdf files can be exported from the Freecad file.
+Freecad can be found for free here:
+https://www.freecadweb.org/
 
 Split pcb:
 https://github.com/Supermagnum/98keys-ergo/tree/master/98keys-split-pcb
@@ -23,7 +22,6 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/98keys-split-pcb/98keys-s
 
 Vial:
 
-https://get.vial.today/docs/porting-to-via.html
 
 https://get.vial.today/
 
@@ -48,8 +46,6 @@ https://github.com/Supermagnum/98keys-ergo/blob/master/LICENSE
 Todo:
 
 Maybe add a supporting point in the middle of the Pcb's. 
-
-Make mechanical plates and frames in Freecad.
 
 Add a usb device id so the PCB will be recognised by Linux and others.
 
