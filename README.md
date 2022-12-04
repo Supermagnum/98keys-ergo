@@ -1,5 +1,5 @@
-# 98keys-ergo
-A 98 key ergonomic,split keyboard.
+# 94keys-ergo
+A 94 key ergonomic,split keyboard.
 Its powered by 2X Raspberry pico and linked with two TRRS jacks.
 
 Firmware compiles without any errors.
